@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="title_activity_settings">Asetukset</string>
+    <!-- Strings related to Settings -->
+    <string name="pref_header_security">Suojaus</string>
+    <string name="pref_header_about">Tietoja</string>
+    <!-- General settings -->
+    <string name="pref_title_root_access">Root -oikeudet</string>
+    <string name="pref_has_root_access">QCView:llä on root -oikeudet</string>
+    <string name="pref_has_no_root_access">QCView:llä ei ole root -oikeuksia</string>
+    <string name="pref_title_dt2w">Ota käyttöön DT2W</string>
+    <string name="pref_description_dt2w">Yritä ottaa käyttöön DT2W romeissa, joissa sen ei ole käytössä oletuksena</string>
+    <string name="pref_title_call_ui">Ota käyttöön In Call UI</string>
+    <string name="pref_description_call_ui">KOKEELLINEN Ottaa käyttöön In Call UI:n tuleville ja meneville puheluille.</string>
+    <string name="pref_title_alternative_call">Käytä vaihtoehtoista tapaa hyväksyä/hylätä puhelu</string>
+    <string name="pref_description_alternative_call">Yritä tätä, jos et voi hyväksyä/hylätä puhelua.</string>
+    <string name="pref_title_notification_service">Ilmoitus Palvelu</string>
+    <string name="pref_has_notification_access">QCView on rekisteröity ilmoitusten vastaanottajaksi</string>
+    <string name="pref_has_no_notification_access">QCView ei ole rekisteröity ilmoitusten vastaanottajaksi</string>
+    <string name="pref_title_auto_unlock">Automaattinen avaus</string>
+    <string name="pref_description_auto_unlock">Laita näyttö päälle automattisesti, kun läppä avataan</string>
+    <!-- Launcher Settings -->
+    <string name="pref_launcher_settings">Käynnistys-sovellus</string>
+    <string name="pref_title_hide_launcher_labels">Piilota etiketit käynnistys-sovelluksessa</string>
+    <string name="pref_description_hide_launcher_labels">Piilottaa sovellus-etiketit käynnistys-sovelluksessa</string>
+    <string name="title_activity_launcher_settings">Käynnistys-sovellus asetukset</string>
+    <!-- Weather Settings -->
+    <string name="pref_weather_settings">Sää Asetukset</string>
+    <string name="pref_weather_units_title">Valitse yksikkö</string>
+    <string name="pref_weather_unit_default">C</string>
+    <string name="pref_weather_unit_current">Tämänhetkinen yksikkö:</string>
+    <string name="pref_weather_refresh_interval_title">Päivitys Taajuus</string>
+    <string name="pref_weather_refresh_interval_current">Tämänhetkinen taajuus</string>
+    <!-- Knock Code settings -->
+    <string name="pref_knock_code">Knock Code</string>
+    <string name="pref_knock_code_set_new">Aseta uusi Knock Code</string>
+    <string name="pref_knock_code_enabled">Otettu käyttöön</string>
+    <string name="pref_knock_code_cancel">Peruuta</string>
+    <string name="pref_knock_code_retry">Yritä uudelleen</string>
+    <string name="pref_knock_code_continue">Jatka</string>
+    <string name="pref_knock_code_finish">Valmis</string>
+    <string name="title_activity_knock_settings">Knock Code -asetukset</string>
+    <!-- About section -->
+    <string name="pref_title_libraries">Open-Source Kirjastot</string>
+    <string name="pref_desc_libraries">Näytä kaikki mahtavat Open-Source projektit, jotka tekivät tämän sovelluksen mahdolliseksi</string>
+    <string name="pref_title_show_ads">Näytä Mainokset</string>
+    <string name="pref_description_show_ads">Kiitos tuesta!</string>
+</resources>

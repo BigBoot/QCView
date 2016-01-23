@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="title_activity_settings">Paramètres</string>
+    <!-- Strings related to Settings -->
+    <string name="pref_header_security">Sécurité</string>
+    <string name="pref_header_about">A propos</string>
+    <!-- General settings -->
+    <string name="pref_title_root_access">Accès root</string>
+    <string name="pref_has_root_access">QCview a les privilèges root</string>
+    <string name="pref_has_no_root_access">QCview n\'a pas les privilèges root</string>
+    <string name="pref_title_dt2w">Activer DT2W</string>
+    <!-- Launcher Settings -->
+    <!-- Weather Settings -->
+    <!-- Knock Code settings -->
+    <string name="pref_knock_code_enabled">Activer</string>
+    <string name="pref_knock_code_cancel">Annuler</string>
+    <string name="pref_knock_code_retry">Réessayer</string>
+    <string name="pref_knock_code_continue">Continuer</string>
+    <string name="pref_knock_code_finish">Finir</string>
+    <!-- About section -->
+    <string name="pref_title_show_ads">Afficher les pubs</string>
+    <string name="pref_description_show_ads">Merci pour votre support!</string>
+</resources>

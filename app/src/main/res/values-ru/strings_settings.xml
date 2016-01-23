@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="title_activity_settings">Настройки</string>
+    <!-- Strings related to Settings -->
+    <string name="pref_header_security">Безопасность</string>
+    <string name="pref_header_about">О программе</string>
+    <!-- General settings -->
+    <string name="pref_title_root_access">Рут-доступ</string>
+    <string name="pref_has_root_access">QCView предоставлен рут-доступ</string>
+    <string name="pref_has_no_root_access">QCView не предоставлен рут-доступ</string>
+    <string name="pref_title_dt2w">Двойное касание для пробуждения (DT2W)</string>
+    <string name="pref_description_dt2w">Попробуйте включить двойное касание для пробуждения на прошивках, где оно отключено по умолчанию</string>
+    <string name="pref_title_call_ui">Вкл интерфейс вызова</string>
+    <string name="pref_description_call_ui">ЭКСПЕРИМЕНТ- включение интерфейса вызова для входящих и исходящих вызовов</string>
+    <string name="pref_title_alternative_call">Альтернативный метод приёма/отклонения вызова</string>
+    <string name="pref_description_alternative_call">Попробуйте это, если у Вас не получается принять/отклонить вызов. Это эмулирует события для приёма и отклонения вызова</string>
+    <string name="pref_title_notification_service">Служба уведомлений</string>
+    <string name="pref_has_notification_access">QCView зарегистрирован для приёма уведомлений</string>
+    <string name="pref_has_no_notification_access">QCView не зарегистрирован для приёма уведомлений</string>
+    <string name="pref_title_auto_unlock">Авторазблокировка</string>
+    <string name="pref_description_auto_unlock">Автоматическая разблокировка экрана при открытии крышки чехла</string>
+    <!-- Launcher Settings -->
+    <string name="pref_launcher_settings">Лончер</string>
+    <string name="pref_title_hide_launcher_labels">Скрыть подписи в лончере</string>
+    <string name="pref_description_hide_launcher_labels">Скрытие подписей к приложениям в лончере</string>
+    <string name="title_activity_launcher_settings">Параметры лончера</string>
+    <!-- Weather Settings -->
+    <string name="pref_weather_settings">Настройки погоды</string>
+    <string name="pref_weather_units_title">Выбрать единицы</string>
+    <string name="pref_weather_unit_default">C</string>
+    <string name="pref_weather_unit_current">Текущая единица:</string>
+    <string name="pref_weather_refresh_interval_title">Интервал обновления</string>
+    <string name="pref_weather_refresh_interval_current">Текущий интервал:</string>
+    <!-- Knock Code settings -->
+    <string name="pref_knock_code">Knock Code</string>
+    <string name="pref_knock_code_set_new">Установить новый Knock Code</string>
+    <string name="pref_knock_code_enabled">Включено</string>
+    <string name="pref_knock_code_cancel">Отмена</string>
+    <string name="pref_knock_code_retry">Повтор</string>
+    <string name="pref_knock_code_continue">Продолжить</string>
+    <string name="pref_knock_code_finish">Завершить</string>
+    <string name="title_activity_knock_settings">Параметры Knock Code</string>
+    <!-- About section -->
+    <string name="pref_title_libraries">Библиотеки открытого исходного кода</string>
+    <string name="pref_desc_libraries">Все великолепные проекты с открытым кодом, благодаря которым стало возможным создание этого приложения</string>
+    <string name="pref_title_show_ads">Показать рекламу</string>
+    <string name="pref_description_show_ads">Спасибо за поддержку!</string>
+</resources>

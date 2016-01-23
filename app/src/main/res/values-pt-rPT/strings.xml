@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QCView</string>
+    <string name="action_delete">Apagar</string>
+    <string name="action_settings">Definições</string>
+    <string name="apply">Aplicar</string>
+    <string name="apply_theme">Aplicar tema</string>
+    <string name="author">Autor:</string>
+    <string name="description">Descrição:</string>
+    <string name="active_theme">Tema ativo</string>
+    <string name="no_watchfaces">Sem Watchfaces instaladas\nUse o botão importar para importar novas watchfaces</string>
+    <string name="err_no_xml">O ficheiro Zip não contém um clock.xml</string>
+    <string name="err_invalid_xml">clock.xml não é válido</string>
+    <string name="err_read_error">Erro na leitura do ficheiro ou não é um ficheiro zip</string>
+    <string name="err_missing_file">Um ficheiro substituído não existe no zip</string>
+    <string name="err_import">Erro de importação</string>
+    <string name="customize_theme">Personalizar</string>
+    <string name="firststart_text">QCView pode mostrar notificações dentro da capa QuickCircle. Por favor, dê-nos Acesso às notificações se desejar usar esta funcionalidade.
+Acesso root é obrigatório para que a QCView funcione</string>
+    <string name="call_swipe_icon">Deslize um ícone\nem qualquer direção</string>
+    <string name="call_incoming">A receber chamada...</string>
+    <string name="call_outgoing">A realizar chamada...</string>
+    <string name="place_not_found">Desculpe, não foram encontrados dados de meteorologia.</string>
+    <string name="turn_off_gps">Pode agora desligar o gps</string>
+    <!--Install update-->
+    <!--ignore update-->
+</resources>

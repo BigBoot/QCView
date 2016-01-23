@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sothree.slidinguppanel.SlidingUpPanelLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:sothree="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menu_slide"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="top"
+    sothree:umanoPanelHeight="@dimen/menu_panel_height"
+    sothree:umanoShadowHeight="0px"
+    sothree:umanoFadeColor="#7fffffff"
+    sothree:umanoOverlay="true">
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:id="@+id/layout"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:attr/selectableItemBackground">
+
+        <FrameLayout
+            android:id="@+id/clock_layout"
+            android:layout_width="@dimen/config_circle_diameter"
+            android:layout_height="@dimen/config_circle_diameter">
+        </FrameLayout>
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="@dimen/config_circle_diameter"
+            android:layout_height="@dimen/config_circle_diameter"/>
+    </RelativeLayout>
+
+    <fragment
+        android:name="de.bigboot.qcircleview.cover.Menu_"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/menu"
+        android:id="@+id/menu" />
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>

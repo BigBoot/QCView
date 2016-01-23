@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <string name="pref_header_security">Security</string>
+    <string name="pref_header_about">About</string>
+
+    <!-- General settings -->
+    <string name="pref_title_root_access">Root access</string>
+    <string name="pref_has_root_access">QCView has root access</string>
+    <string name="pref_has_no_root_access">QCView does not have root access</string>
+
+    <string name="pref_title_dt2w">Enable DT2W</string>
+    <string name="pref_description_dt2w">Try to enable Double Tap 2 Wake on Roms, where it\'s disabled by default</string>
+
+    <string name="pref_title_call_ui">Enable In Call UI</string>
+    <string name="pref_description_call_ui">EXPERIMENTAL Enables the In Call Ui for incoming and outgoing calls.</string>
+
+    <string name="pref_title_alternative_call">Use alternative method to accept/dismiss a call</string>
+    <string name="pref_description_alternative_call">Try this if you can\'t accept/dismiss a call. This emulates events to accept/dismiss a call</string>
+
+    <string name="pref_title_notification_service">Notification Service</string>
+    <string name="pref_has_notification_access">QCView is registered as a notification receiver</string>
+    <string name="pref_has_no_notification_access">QCView is not registered as a notification receiver</string>
+
+    <string name="pref_title_auto_unlock">Auto-Unlock</string>
+    <string name="pref_description_auto_unlock">Automatically unlock the screen when the cover is opened</string>
+
+    <!-- Launcher Settings -->
+    <string name="pref_launcher_settings">Launcher</string>
+    <string name="pref_title_hide_launcher_labels">Hide labels in launcher</string>
+    <string name="pref_description_hide_launcher_labels">Hides the app labels in the launcher</string>
+    <string name="title_activity_launcher_settings">Launcher Settings</string>
+
+    <!-- Weather Settings -->
+    <string name="pref_weather_settings">Weather Settings</string>
+    <string name="pref_weather_units_title">Select Unit</string>
+    <string name="pref_weather_unit_default">C</string>
+    <string name="pref_weather_unit_current">Current unit:</string>
+    <string name="pref_weather_refresh_interval_title">Refresh Interval</string>
+    <string name="pref_weather_refresh_interval_current" >Current interval:</string>
+
+    <!-- Knock Code settings -->
+    <string name="pref_knock_code">Knock Code</string>
+    <string name="pref_knock_code_set_new">Set a new Knock Code</string>
+    <string name="pref_knock_code_enabled">Enabled</string>
+    <string name="pref_knock_code_cancel">Cancel</string>
+    <string name="pref_knock_code_retry">Retry</string>
+    <string name="pref_knock_code_continue">Continue</string>
+    <string name="pref_knock_code_finish">Finish</string>
+    <string name="title_activity_knock_settings">Knock Code Settings</string>
+
+    <!-- About section -->
+    <string name="pref_title_libraries">Open-Source Libraries</string>
+    <string name="pref_desc_libraries">Show all the awesome Open-Source Projects, which made this app possible</string>
+    <string name="pref_title_show_ads">Show Ads</string>
+    <string name="pref_description_show_ads">Thanks for your support!</string>
+</resources>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/information_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/background"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/volume_control"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:paddingBottom="350px"
+        android:paddingRight="350px"
+        android:paddingLeft="245px"
+        android:paddingTop="175px" />
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layoutDirection="locale">
+
+            <LinearLayout
+                android:id="@+id/control_buttons_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="bottom"
+                android:layout_gravity="bottom"
+                android:background="@drawable/cover_button"
+                android:layout_centerVertical="true">
+
+                <com.malinskiy.materialicons.widget.IconTextView
+                    android:id="@+id/previous"
+                    android:text="{md-fast-rewind}"
+                    android:textSize="210px"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:textColor="@android:color/white" />
+
+                <com.malinskiy.materialicons.widget.IconTextView
+                    android:id="@+id/toggle_play"
+                    android:text="{md-play-arrow}"
+                    android:textSize="210px"
+                    android:textColor="@android:color/white"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible" />
+
+                <com.malinskiy.materialicons.widget.IconTextView
+                    android:id="@+id/next"
+                    android:text="{md-fast-forward}"
+                    android:textSize="210px"
+                    android:textColor="@android:color/white"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/control_buttons_layout"
+            android:layout_alignLeft="@+id/control_buttons_layout"
+            android:layout_alignBottom="@+id/control_buttons_layout"
+            android:layout_alignRight="@+id/control_buttons_layout"
+            android:rowCount="3"
+            android:columnCount="3">
+
+            <com.malinskiy.materialicons.widget.IconTextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/volume_decrease"
+                android:text="{md-volume-down}"
+                tools:ignore="HardcodedText"
+                android:textSize="140px"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:textColor="@android:color/white"
+                android:visibility="invisible"
+                android:layout_marginLeft="35px"
+                android:gravity="center_vertical" />
+
+            <com.malinskiy.materialicons.widget.IconTextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/volume_increase"
+                android:text="{md-volume-up}"
+                tools:ignore="HardcodedText"
+                android:textSize="140px"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:textColor="@android:color/white"
+                android:visibility="invisible"
+                android:layout_marginRight="35px"
+                android:gravity="center_vertical" />
+
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/volume_bar"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/volume_decrease"
+                android:layout_toLeftOf="@+id/volume_increase"
+                android:visibility="invisible"
+                android:theme="@style/VolumeBar" />
+
+        </RelativeLayout>
+
+        <ImageButton
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/volume_control"
+            android:paddingStart="180px"
+            android:paddingEnd="180px"
+            android:background="@drawable/ic_music_vol"
+            android:layout_width="140px"
+            android:layout_height="140px"
+            android:scaleType="fitXY"
+            android:layout_below="@+id/artist"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="locale"
+            android:ellipsize="marquee"
+            android:paddingEnd="105px"
+            android:paddingStart="105px"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            tools:text="Title"
+            android:textSize="70px"
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/control_buttons_layout"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:gravity="center_horizontal"
+            android:id="@+id/artist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="locale"
+            android:paddingStart="256px"
+            android:textStyle="bold"
+            android:paddingEnd="256px"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            tools:text="Artist"
+            android:textColor="@android:color/white"
+            android:layout_below="@+id/title"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+</FrameLayout>

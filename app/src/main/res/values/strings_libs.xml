@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="library_androidslidinguppanel_author" translatable="false">Umano team</string>
+    <string name="library_androidslidinguppanel_name" translatable="false">AndroidSlidingUpPanel</string>
+    <string name="library_androidslidinguppanel_desc">Android Sliding Up Panel provides a simple way to add a draggable sliding up panel (popularized by Google Music, Google Maps and Rdio) to your Android application</string>
+    <string name="library_androidslidinguppanel_url" translatable="false">http://github.com/umano/AndroidSlidingUpPanel</string>
+    <string name="library_androidslidinguppanel_license" translatable="false">apache_2_0</string>
+
+
+    <string name="library_androidannotations_author" translatable="false">Pierre-Yves Ricau</string>
+    <string name="library_androidannotations_name" translatable="false">AndroidAnnotations</string>
+    <string name="library_androidannotations_desc">AndroidAnnotations is an Open Source framework that speeds up Android development. It takes care of the plumbing, and lets you concentrate on what\'s really important. By simplifying your code, it facilitates its maintenance.</string>
+    <string name="library_androidannotations_url" translatable="false">http://androidannotations.org/</string>
+    <string name="library_androidannotations_license" translatable="false">cc30</string>
+
+
+    <string name="library_AndroidViewPagerIndicator_author" translatable="false">Jake Wharton</string>
+    <string name="library_AndroidViewPagerIndicator_name" translatable="false">ViewPagerIndicator</string>
+    <string name="library_AndroidViewPagerIndicator_desc">Paging indicator widgets that are compatible with the ViewPager from the Android Support Library to improve discoverability of content.</string>
+    <string name="library_AndroidViewPagerIndicator_url" translatable="false">http://viewpagerindicator.com</string>
+    <string name="library_AndroidViewPager_license" translatable="false">apache_2_0</string>
+
+
+    <string name="library_FloatingActionButton_author" translatable="false">Jerzy Chałupski</string>
+    <string name="library_FloatingActionButton_name" translatable="false">FloatingActionButton</string>
+    <string name="library_FloatingActionButton_desc">Android Google+ like floating action button which reacts on the list view scrolling events. Becomes visible when the list view is scrolled up and invisible when scrolled down.</string>
+    <string name="library_FloatingActionButton_url" translatable="false">https://github.com/futuresimple/android-floating-action-button</string>
+    <string name="library_FloatingActionButton_license" translatable="false">apache_2_0</string>
+
+
+    <string name="library_materialicons_author" translatable="false">Anton Malinskiy</string>
+    <string name="library_materialicons_name" translatable="false">Material Icons</string>
+    <string name="library_materialicons_desc">android-material-icons allows you to include any of the Material Design 1.0.1 icons by Google packed by Sergey Kupletsky in your texts, your ActionBar, and even in your EditTexts. Icons are infinitely scalable, and customizable with shadows and everything you can do on texts.</string>
+    <string name="library_materialicons_url" translatable="false">https://github.com/Malinskiy/android-material-icons</string>
+    <string name="library_materialicons_license" translatable="false">apache_2_0</string>
+
+
+    <string name="library_rootshell_author" translatable="false">Stephen Erickson</string>
+    <string name="library_rootshell_name" translatable="false">RootShell</string>
+    <string name="library_rootshell_desc">RootShell provides rooted developers with an easy to use Root Shell for their Android Applications.</string>
+    <string name="library_rootshell_url" translatable="false">https://github.com/Stericson/RootShell</string>
+    <string name="library_rootshell_license" translatable="false">apache_2_0</string>
+
+
+    <string name="library_androidcrop_author" translatable="false">Jamie McDonald</string>
+    <string name="library_androidcrop_name" translatable="false">Android Crop</string>
+    <string name="library_androidcrop_desc">An Android library project to provide a simple image cropping Activity, based on code from AOSP.</string>
+    <string name="library_androidcrop_url" translatable="false">https://github.com/jdamcd/android-crop</string>
+    <string name="library_androidcrop_license" translatable="false">apache_2_0</string>
+
+
+    <string name="library_roundedimageview_author" translatable="false">Vince Mi</string>
+    <string name="library_roundedimageview_name" translatable="false">RoundedImageView</string>
+    <string name="library_roundedimageview_desc">A fast ImageView (and Drawable) that supports rounded corners (and ovals or circles) based on the original example from Romain Guy. RoundedImageView is a full superset of CircleImageView (which is actually just a subset based on this lib) with many more advanced features like support for ovals, rounded rectangles, ScaleTypes and TileModes.</string>
+    <string name="library_roundedimageview_url" translatable="false">https://github.com/vinc3m1/RoundedImageView</string>
+    <string name="library_roundedimageview_license" translatable="false">apache_2_0</string>
+
+
+    <string name="library_androidiconify_author" translatable="false">Joan Zapata</string>
+    <string name="library_androidiconify_name" translatable="false">Android Iconify</string>
+    <string name="library_androidiconify_desc">Iconify allows you to easily include vector icons in your TextView, Button, etc… The icons are infinitely scalable, and customizable with shadows and everything you can do on texts.</string>
+    <string name="library_androidiconify_url" translatable="false">https://github.com/JoanZapata/android-iconify</string>
+    <string name="library_androidiconify_license" translatable="false">apache_2_0</string>
+
+
+    <string name="library_listviewanimation_author" translatable="false">Niek Haarman</string>
+    <string name="library_listviewanimation_name" translatable="false">ListViewAnimations</string>
+    <string name="library_listviewanimation_desc">ListViewAnimations is an Open Source Android library that allows developers to easily create ListViews with animations. Feel free to use it all you want in your Android apps provided that you cite this project and include the license in your app.</string>
+    <string name="library_listviewanimation_url" translatable="false">https://github.com/nhaarman/ListViewAnimations</string>
+    <string name="library_listviewanimation_license" translatable="false">apache_2_0</string>
+
+
+    <string name="library_ion_author" translatable="false">Koushik Dutta</string>
+    <string name="library_ion_name" translatable="false">Ion</string>
+    <string name="library_ion_desc">Ion is a general purpose networking library. Whether it is JSON, Strings, Files, Images (into ImageViews), etc; Ion can handle it.</string>
+    <string name="library_ion_url" translatable="false">https://github.com/koush/ion</string>
+    <string name="library_ion_license" translatable="false">apache_2_0</string>
+</resources>

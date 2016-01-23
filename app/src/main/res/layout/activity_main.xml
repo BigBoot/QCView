@@ -1,0 +1,58 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/sample_main_layout"
+    android:background="@android:color/black"
+    android:gravity="center_horizontal">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="PxUsage,UselessParent">
+
+        <FrameLayout
+            android:layout_width="@dimen/config_circle_diameter"
+            android:layout_height="@dimen/config_circle_diameter"
+            tools:ignore="PxUsage,UselessParent"
+            android:layout_gravity="center_horizontal">
+
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:name="de.bigboot.qcircleview.cover.CoverFragment_"
+                tools:layout="@layout/fragment_cover"
+                android:id="@+id/content" />
+
+            <de.bigboot.qcircleview.cover.KnockView_
+                xmlns:kv="http://schemas.android.com/apk/res/de.bigboot.qcircleview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                kv:kv_background_color="@android:color/transparent"
+                kv:kv_selection_color="@android:color/transparent"
+                kv:kv_border_color="@android:color/transparent"
+                android:id="@+id/knock_code"
+                android:visibility="visible" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView16"
+                android:src="@drawable/mask"
+                tools:src=""
+                tools:ignore="ContentDescription" />
+
+        </FrameLayout>
+
+        <de.bigboot.qcircleview.cover.CircleAnimationView_
+            android:id="@+id/circle_animation"
+            android:layout_width="1100px"
+            android:layout_height="1100px"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-32px" />
+    </FrameLayout>
+
+</LinearLayout>
+

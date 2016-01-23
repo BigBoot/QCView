@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="title_activity_settings">Nastavení</string>
+    <!-- Strings related to Settings -->
+    <string name="pref_header_security">Zabezpečení</string>
+    <string name="pref_header_about">O aplikaci</string>
+    <!-- General settings -->
+    <string name="pref_title_root_access">Root přístup</string>
+    <string name="pref_has_root_access">QCircleView má root přístup</string>
+    <string name="pref_has_no_root_access">QCircleView nemá root přístup</string>
+    <string name="pref_title_dt2w">Zapnout DT2W</string>
+    <string name="pref_description_dt2w">Vyzkoušet zapnout Double Tap 2 Wake v Rom, kde je defaultně vypnutý.</string>
+    <string name="pref_title_call_ui">Zapnout In Call UI</string>
+    <!-- Launcher Settings -->
+    <!-- Weather Settings -->
+    <!-- Knock Code settings -->
+    <!-- About section -->
+</resources>

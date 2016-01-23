@@ -1,0 +1,75 @@
+apply plugin: 'com.android.application'
+apply plugin: 'android-apt'
+def AAVersion = '3.3.2'
+
+buildscript {
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:1.2.3'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.4'
+    }
+}
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+    jcenter()
+}
+
+dependencies {
+    apt "org.androidannotations:androidannotations:$AAVersion"
+    compile "org.androidannotations:androidannotations-api:$AAVersion"
+    compile files('libs/RootShell.jar')
+    compile project(':qcirclelib')
+    compile 'com.mcxiaoke.viewpagerindicator:library:2.4.1'
+    compile 'com.android.support:support-v13:22.2.1'
+    compile 'com.android.support:support-v4:22.2.1'
+    compile 'com.sothree.slidinguppanel:library:3.0.0'
+    compile 'com.getbase:floatingactionbutton:1.9.0'
+    compile 'com.soundcloud.android:android-crop:0.9.10@aar'
+    compile 'com.makeramen:roundedimageview:2.0.1'
+    compile 'com.malinskiy:materialicons:1.0.1'
+    compile 'com.joanzapata.iconify:android-iconify-fontawesome:2.0.7'
+    compile 'com.joanzapata.iconify:android-iconify-weathericons:2.0.7'
+    compile 'com.nhaarman.listviewanimations:lib-core:3.1.0@aar'
+    compile 'com.nhaarman.listviewanimations:lib-manipulation:3.1.0@aar'
+    compile 'com.nhaarman.listviewanimations:lib-core-slh:3.1.0@aar'
+    compile 'com.android.support:cardview-v7:22.2.1'
+    compile 'com.android.support:recyclerview-v7:22.2.1'
+    compile 'com.koushikdutta.ion:ion:2.1.6'
+    compile 'com.google.android.gms:play-services-ads:7.8.0'
+}
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "de.bigboot.qcircleview"
+        minSdkVersion 21
+        targetSdkVersion 22
+        versionCode 27
+        versionName "1.2.5"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+apt {
+    arguments {
+        androidManifestFile variant.outputs[0].processResources.manifestFile
+        resourcePackageName android.defaultConfig.applicationId
+    }
+}

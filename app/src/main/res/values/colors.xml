@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="shadow">#70000000</color>
+    <color name="cover_button_select">#962196f3</color>
+    <color name="cover_button">#96919191</color>
+</resources>

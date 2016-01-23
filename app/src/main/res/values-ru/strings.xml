@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QCiView</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_settings">Настройки</string>
+    <string name="apply">Применить</string>
+    <string name="apply_theme">Применить тему</string>
+    <string name="author">Автор:</string>
+    <string name="description">Описание</string>
+    <string name="active_theme">Активная тема</string>
+    <string name="no_watchfaces">Циферблаты не установлены\nИспользуйте кнопку импорта для получения новых циферблатов</string>
+    <string name="err_no_xml">Архив zip не содержит clock.xml</string>
+    <string name="err_invalid_xml">Некорректный clock.xml</string>
+    <string name="err_read_error">Ошибка чтения файла или файл не является архивом zip</string>
+    <string name="err_missing_file">Замененный файл отсутствует в архиве zip</string>
+    <string name="err_import">Ошибка импорта</string>
+    <string name="customize_theme">Настроить</string>
+    <string name="firststart_text">QuickCircle View может отображать уведомления в окне QuickCircle, предоставьте, пожалуйста, доступ к уведомлениям, если хотите использовать эту функцию
+    Рут-доступ необходим для работы QuickCircle View</string>
+    <string name="call_swipe_icon">Сдвиньте значок\nв любом направлении</string>
+    <string name="call_incoming">Входящий вызов...</string>
+    <string name="call_outgoing">Исходящий вызов....</string>
+    <string name="place_not_found">Извините, погодных данных не найдено.</string>
+    <string name="turn_off_gps">Теперь можете отключить GPS</string>
+    <string name="service_running">Служба умного чехла запущена</string>
+    <string name="selinux_dialog_title">Режим SELinux</string>
+    <string name="selinux_dialog_content">Для работы QCView необходимо установить разрешающий режим SELinux.\nХотите включить разрешающий режим?</string>
+    <string name="pref_title_auto_update">Автообновления</string>
+    <string name="pref_description_auto_update">Регулярная проверка обновлений и уведомление при их наличии.</string>
+    <string name="pref_title_check_for_update">Проверка обновлений</string>
+    <string name="install_update">Установить обновление?</string>
+    <!--Install update-->
+    <string name="update_yes">Установить</string>
+    <!--ignore update-->
+    <string name="update_no">Игнорировать</string>
+    <string name="update_dialog_title">Установить обновление?</string>
+    <string name="update_network_error">Ошибка при получении информации об обновлении</string>
+    <string name="update_found">Доступно обновление. Нажмите для загрузки.</string>
+    <string name="update_download">Загрузка обновления</string>
+    <string name="update_download_error">Ошибка при загрузке обновления</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="library_androidslidinguppanel_desc">Android Sliding Up Panel provides a simple way to add a draggable sliding up panel (popularized by Google Music, Google Maps and Rdio) to your Android application</string>
+    <string name="library_androidannotations_desc">AndroidAnnotations is an Open Source framework that speeds up Android development. It takes care of the plumbing, and lets you concentrate on what\'s really important. By simplifying your code, it facilitates its maintenance.</string>
+    <string name="library_AndroidViewPagerIndicator_desc">Paging indicator widgets that are compatible with the ViewPager from the Android Support Library to improve discoverability of content.</string>
+    <string name="library_FloatingActionButton_desc">Android Google+ like floating action button which reacts on the list view scrolling events. Becomes visible when the list view is scrolled up and invisible when scrolled down.</string>
+    <string name="library_materialicons_desc">android-material-icons allows you to include any of the Material Design 1.0.1 icons by Google packed by Sergey Kupletsky in your texts, your ActionBar, and even in your EditTexts. Icons are infinitely scalable, and customizable with shadows and everything you can do on texts.</string>
+    <string name="library_rootshell_desc">RootShell provides rooted developers with an easy to use Root Shell for their Android Applications.</string>
+    <string name="library_androidcrop_desc">An Android library project to provide a simple image cropping Activity, based on code from AOSP.</string>
+    <string name="library_roundedimageview_desc">A fast ImageView (and Drawable) that supports rounded corners (and ovals or circles) based on the original example from Romain Guy. RoundedImageView is a full superset of CircleImageView (which is actually just a subset based on this lib) with many more advanced features like support for ovals, rounded rectangles, ScaleTypes and TileModes.</string>
+    <string name="library_androidiconify_desc">Iconify allows you to easily include vector icons in your TextView, Button, etc… The icons are infinitely scalable, and customizable with shadows and everything you can do on texts.</string>
+    <string name="library_listviewanimation_desc">ListViewAnimations is an Open Source Android library that allows developers to easily create ListViews with animations. Feel free to use it all you want in your Android apps provided that you cite this project and include the license in your app.</string>
+    <string name="library_ion_desc">Ion is a general purpose networking library. Whether it is JSON, Strings, Files, Images (into ImageViews), etc; Ion can handle it.</string>
+</resources>

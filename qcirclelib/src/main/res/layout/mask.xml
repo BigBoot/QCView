@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="@dimen/config_circle_diameter"
+        android:layout_height="@dimen/config_circle_diameter"
+        android:id="@+id/qc_root"
+        android:background="@android:color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/config_circle_window_y_pos">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@+id/qc_back_button"
+            android:background="@android:color/white"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal|top"
+            android:id="@+id/qc_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_above="@+id/qc_back_button"
+            android:layout_centerHorizontal="true">
+
+        </FrameLayout>
+
+        <com.malinskiy.materialicons.widget.IconTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/qc_back_button"
+            android:layout_gravity="center_horizontal"
+            android:text="{md-arrow-back}"
+            android:textSize="50dp"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentBottom="true"
+            android:visibility="gone"
+            tools:visibility="visible"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:background="@color/back_bg" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/qc_mask"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/mask"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</FrameLayout>

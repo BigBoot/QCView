@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="library_androidslidinguppanel_desc">Android Sliding Up Panel fornisce un modo semplice di aggiungere un pannello trascinabile verso l\'alto (popolare in Google Music, Google Maps e Rdio) nella tua appicazione Android</string>
+    <string name="library_androidannotations_desc">AndroidAnnotations è un framework Open Source che velocizza lo sviluppo delle app in Android. Si fa carico del lavoro pesante e ti lascia concentrare su ciò che c\'è di più importante. Semplificando il tuo codice, facilita anche la ricerca di errori.</string>
+    <string name="library_AndroidViewPagerIndicator_desc">Paging indicator widgets sono compatibili con ViewPager (dalla Android Support Library) per migliorare la scoperta dei contenuti.</string>
+    <string name="library_FloatingActionButton_desc">Action Button simile quello fluttuante di Google+ che reagisce ai \"list view scrolling events\". Diventa visibile quando la lista viene fatta scorrere verso l\'alto e invisibile quando viene fatta scorrere verso il basso.</string>
+    <string name="library_materialicons_desc">Android-material-icons permettono di includere le icone Material Design 1.0.1 di Google confezionate da Sergey Kupletsky nei tuoi messaggi, nella tua ActionBar, e anche nei tuoi EditTexts. le icone sono scalabili infinitamente e personalizzabili con ombre e tutto quello che preferisci.</string>
+    <string name="library_rootshell_desc">RootShell fornisce agli sviluppatori che voglio il Root una Root Shell facile da usare nelle loro applicazioni</string>
+    <string name="library_androidcrop_desc">Una libreria Android che fornisce una semplice attività di ritaglio dell\'immagine, basata sul codice AOSP</string>
+    <string name="library_roundedimageview_desc">Un veloce ImageView (e Drawable) che supporta i bordi arrotondati (corcolari o ovali) basati sull\'esempio originale di Romain Guy. RoundedImageView è un superset pieno di CircleImageView (che è attualmente un subset basato su quella libreria) con molte altre funsioni avanzate come il supporto per gli ovali, rettangoli arrotondati, ScaleTypes e TileModes.</string>
+    <string name="library_androidiconify_desc">Iconify ti permette di includere facilmente icone vettori nei tuoi TextView, Button, ecc.. Le icone sono scalabili all\'infinito e personalizzabili con ombre e tutto quello che puoi fare con i Text</string>
+    <string name="library_listviewanimation_desc">ListViewAnimations è una libreria Android Open Source che permette agli sviluppatori di creare facilmente delle ListView animate. Sentiti libero di usarla l\'importante è che non ti dimentichi di citare questa nota nella licenza della tua app.</string>
+    <string name="library_ion_desc">Ion è una libreria di networkin multiuso. Il meteo è in JSON, Strings, Files, Images (in ImageViews), ecc.. Ion può supportarle.</string>
+</resources>

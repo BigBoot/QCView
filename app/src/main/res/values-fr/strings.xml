@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QCView</string>
+    <string name="action_delete">Supprimer</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="apply">Appliquer</string>
+    <string name="apply_theme">Appliquer le thème</string>
+    <string name="author">Auteur:</string>
+    <string name="description">Description:</string>
+    <string name="active_theme">Thème actif</string>
+    <string name="no_watchfaces">Pas de cadrans installés\nUtilisez le bouton importer pour en importer de nouveaux</string>
+    <string name="err_no_xml">Le fichier ZIP ne contient pas clock.xml</string>
+    <string name="err_invalid_xml">clock.xml n\'est pas valide</string>
+    <string name="err_read_error">Erreur de lecture du fichier ou fichier non au format zip</string>
+    <string name="err_missing_file">Un fichier remplacé n\'est pas présent dans le zip</string>
+    <string name="err_import">Erreur d\'importation</string>
+    <string name="customize_theme">Customiser</string>
+    <string name="firststart_text">QuickCircle View peut afficher vos notifications à l\'intérieur de QuickCircle. Veuillez laisser l\'accès aux notifications si vous souhaitez utiliser cette fonctionnalité.
+  L\'accès root est obligatoire à QuickCircle pour fonctionner.</string>
+    <string name="call_swipe_icon">Glissez sur un icone\ndans n\'importe quelle direction</string>
+    <string name="call_incoming">Appel entrant...</string>
+    <string name="call_outgoing">Appel sortant...</string>
+    <string name="place_not_found">Désolé, pas de données disponibles pour la météo.</string>
+    <string name="turn_off_gps">Vous pouvez éteindre le GPS maintenant</string>
+    <string name="service_running">Smartcover service est en cours</string>
+    <string name="selinux_dialog_title">Mode SELinux</string>
+    <string name="selinux_dialog_content">QCView a besoin que le mode SELinux soit sur permissif\nVoulez-vous activer le mode permissif ?</string>
+    <string name="pref_title_auto_update">Mise à jours automatiques</string>
+    <string name="pref_description_auto_update">Vérifier les mises à jour régulièrement et afficher une notification pour les mises à jour disponibles.</string>
+    <string name="pref_title_check_for_update">Vérifier les mises à jour</string>
+    <string name="install_update">Installer la mise à jour ?</string>
+    <!--Install update-->
+    <string name="update_yes">Installer</string>
+    <!--ignore update-->
+    <string name="update_no">Ignorer</string>
+    <string name="update_dialog_title">Installer la mise à jour ?</string>
+    <string name="update_network_error">Erreur d\'obtention des informations de la mise à jour</string>
+    <string name="update_found">Mise à jour disponible. Cliquez pour la télécharger.</string>
+    <string name="update_download">Téléchargement de la mise à jour</string>
+    <string name="update_download_error">Erreur de téléchargement de la mise à jour</string>
+</resources>

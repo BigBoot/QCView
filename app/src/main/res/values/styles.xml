@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="CoverTheme" parent="android:Theme.Material.Light.NoActionBar.Fullscreen">
+        <item name="vpiCirclePageIndicatorStyle">@style/TabStyle</item>
+        <item name="android:windowNoTitle">true</item>
+        <!--We will be using the toolbar so no need to show ActionBar-->
+        <item name="android:windowActionBar">false</item>
+        <!-- Set theme colors from http://www.google.com/design/spec/style/color.html#color-color-palette-->
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="android:colorPrimary">#2196F3</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="android:colorPrimaryDark">#1976D2</item>
+        <!-- colorAccent is used as the default value for colorControlActivated
+             which is used to tint widgets -->
+        <item name="android:colorAccent">#FF4081</item>
+        <!-- You can also set colorControlNormal, colorControlActivated
+             colorControlHighlight and colorSwitchThumbNormal. -->
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light">
+        <item name="vpiCirclePageIndicatorStyle">@style/TabStyle</item>
+        <item name="android:windowNoTitle">true</item>
+        <!--We will be using the toolbar so no need to show ActionBar-->
+        <item name="android:windowActionBar">false</item>
+        <!-- Set theme colors from http://www.google.com/design/spec/style/color.html#color-color-palette-->
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="android:colorPrimary">#2196F3</item>
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="android:colorPrimaryDark">#1976D2</item>
+        <!-- colorAccent is used as the default value for colorControlActivated
+             which is used to tint widgets -->
+        <item name="android:colorAccent">#FF4081</item>
+        <!-- You can also set colorControlNormal, colorControlActivated
+             colorControlHighlight and colorSwitchThumbNormal. -->
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="SettingsTheme" parent="AppTheme">
+        <item name="android:windowNoTitle">false</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="VolumeBar" parent="CoverTheme">
+        <item name="android:colorAccent">#ff2196f3</item>
+    </style>
+
+    <style name="TabStyle" parent="Widget.TabPageIndicator">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="cover_button">
+        <item name="android:background">@drawable/cover_button</item>
+        <item name="android:textColor">#ffd7d7d7</item>
+    </style>
+
+    <style name="firstrun_text">
+        <item name="android:textSize">32dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:checkMark">?android:attr/listChoiceIndicatorMultiple</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">#ff939393</item>
+    </style>
+
+</resources>

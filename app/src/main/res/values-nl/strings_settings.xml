@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="title_activity_settings">Instellingen</string>
+    <!-- Strings related to Settings -->
+    <string name="pref_header_security">Beveiliging</string>
+    <string name="pref_header_about">Over</string>
+    <!-- General settings -->
+    <string name="pref_title_root_access">Root toegang</string>
+    <string name="pref_has_root_access">QCView heeft root toegang</string>
+    <string name="pref_has_no_root_access">QCView heeft geen root toegang</string>
+    <string name="pref_title_dt2w">Activeer DT2W</string>
+    <string name="pref_description_dt2w">Probeer Double Tap 2 Wake te activeren voor ROMs waarin het standaard uitgeschakeld is</string>
+    <string name="pref_title_call_ui">Activeer Gespreks UI</string>
+    <string name="pref_description_call_ui">EXPERIMENTEEL Activeert de Gespreks UI voor inkomende en uitgaande gesprekken</string>
+    <string name="pref_title_alternative_call">Gebruikt alternatieve methode om een gesprek te accepteren/weigeren</string>
+    <string name="pref_description_alternative_call">Probeer dit wanneer je een gesprek niet kan accepteren/weigeren. Dit emuleert gebeurtenissen om een gesprek te accepteren/weigeren</string>
+    <string name="pref_title_notification_service">Meldingen Service</string>
+    <string name="pref_has_notification_access">QCView is geregistreerd als een notificatie ontvanger</string>
+    <string name="pref_has_no_notification_access">QCView is niet geregistreerd als een notificatie ontvanger</string>
+    <string name="pref_title_auto_unlock">Automatisch Ontgrendelen</string>
+    <string name="pref_description_auto_unlock">Ontgrendeld het scherm automatisch als de cover wordt geopend</string>
+    <!-- Launcher Settings -->
+    <string name="pref_launcher_settings">Launcher</string>
+    <string name="pref_title_hide_launcher_labels">Verberg labels in launcher</string>
+    <string name="pref_description_hide_launcher_labels">Verberg app labels in launcher</string>
+    <string name="title_activity_launcher_settings">Launcher Instellingen</string>
+    <!-- Weather Settings -->
+    <string name="pref_weather_settings">Weer Instellingen</string>
+    <string name="pref_weather_units_title">Selecteer Eenheid</string>
+    <string name="pref_weather_unit_default">C</string>
+    <string name="pref_weather_unit_current">Huidige eenheid:</string>
+    <string name="pref_weather_refresh_interval_title">Vernieuwingsinterval</string>
+    <string name="pref_weather_refresh_interval_current">Huidig interval:</string>
+    <!-- Knock Code settings -->
+    <string name="pref_knock_code">Knock Code</string>
+    <string name="pref_knock_code_set_new">Maak een nieuwe Knock Code</string>
+    <string name="pref_knock_code_enabled">Geactiveerd</string>
+    <string name="pref_knock_code_cancel">Annuleren</string>
+    <string name="pref_knock_code_retry">Probeer opnieuw</string>
+    <string name="pref_knock_code_continue">Verdergaan</string>
+    <string name="pref_knock_code_finish">Afronden</string>
+    <string name="title_activity_knock_settings">Knock Code instellingen</string>
+    <!-- About section -->
+    <string name="pref_title_libraries">Open-Source Bibliotheken</string>
+    <string name="pref_desc_libraries">Toon alle geweldige Open-Source Projecten die deze app mogelijk maakten</string>
+    <string name="pref_title_show_ads">Toon advertenties</string>
+    <string name="pref_description_show_ads">Bedankt voor de bijdrage!</string>
+</resources>

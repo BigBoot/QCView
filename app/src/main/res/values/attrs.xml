@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <declare-styleable name="AnalogClock">
+        <attr name="dial" format="reference"/>
+        <attr name="hand_hour" format="reference"/>
+        <attr name="hand_minute" format="reference"/>
+        <attr name="hand_second" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="CircleButton">
+        <attr name="color" format="color" />
+        <attr name="pressedRingWidth" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="KnockView">
+        <attr name="kv_background_color" format="color" />
+        <attr name="kv_selection_color" format="color" />
+        <attr name="kv_border_color" format="color" />
+        <attr name="kv_blink_color" format="color" />
+        <attr name="kv_sectors" format="integer" />
+    </declare-styleable>
+</resources>

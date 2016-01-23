@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QCView</string>
+    <string name="action_delete">Usuń</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="apply">Zastosuj</string>
+    <string name="apply_theme">Zastosuj motyw</string>
+    <string name="author">Autor:</string>
+    <string name="description">Opis:</string>
+    <string name="active_theme">Aktywny motyw:</string>
+    <string name="no_watchfaces">Nie zainstalowano tarcz zegara\nUżyj przycisku importowania aby dodać tarcze zegara</string>
+    <string name="err_no_xml">Plik .zip nie zawiera clock.xml</string>
+    <string name="err_invalid_xml">clock.xml nie jest poprawny</string>
+    <string name="err_read_error">Błąd odczytywania pliku lub plik nie jest w formacie .zip</string>
+    <string name="err_missing_file">Zastąpiony plik nie jest obecny w .zip</string>
+    <string name="err_import">Błąd importowania</string>
+    <string name="customize_theme">Dostosuj</string>
+    <string name="firststart_text">QuickCircle View może wyświetlać powiadomienia wewnątrz QuickCircle. Jeśli chcesz korzystać z tej funkcji, proszę dać aplikacji dostęp do powiadomień.
+Dostęp roota jest niezbędny do działania QCView</string>
+    <string name="call_swipe_icon">Przesuń ikonę\nw dowolnym kierunku</string>
+    <string name="call_incoming">Połączenie przychodzące...</string>
+    <string name="call_outgoing">Połączenie wychodzące...</string>
+    <string name="place_not_found">Nie znaleziono danych pogodowych.</string>
+    <string name="turn_off_gps">Możesz już wyłączyć GPS</string>
+    <string name="service_running">Usługa smartcover działa</string>
+    <string name="selinux_dialog_title">Tryb SELinux</string>
+    <string name="selinux_dialog_content">QCView potrzebuje SELinux w trybie pobłażliwym (permissive)\nCzy chcesz włączyć tryb pobłażliwy (permissive)?</string>
+    <string name="pref_title_auto_update">Automatyczne aktualizacje</string>
+    <string name="pref_description_auto_update">Regularnie sprawdzaj i informuj o aktualizacjach</string>
+    <string name="pref_title_check_for_update">Sprawdź aktualizacje</string>
+    <string name="install_update">Zainstalować aktualizację?</string>
+    <!--Install update-->
+    <string name="update_yes">Zainstaluj</string>
+    <!--ignore update-->
+    <string name="update_no">Ignoruj</string>
+    <string name="update_dialog_title">Zainstalować aktualizację?</string>
+    <string name="update_network_error">Błąd pobierania informacji o aktualizacjach</string>
+    <string name="update_found">Dostępna aktualizacja. Kliknij aby pobrać.</string>
+    <string name="update_download">Pobieranie aktualizacji</string>
+    <string name="update_download_error">Błąd pobierania aktualizacji</string>
+</resources>

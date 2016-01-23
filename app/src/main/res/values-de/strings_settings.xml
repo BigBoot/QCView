@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="title_activity_settings">Einstellungen</string>
+    <!-- Strings related to Settings -->
+    <string name="pref_header_security">Sicherheit</string>
+    <string name="pref_header_about">Über</string>
+    <!-- General settings -->
+    <string name="pref_title_root_access">Root Zugriff</string>
+    <string name="pref_has_root_access">QCView hat Root Zugriff</string>
+    <string name="pref_has_no_root_access">QCView hat keinen Root Zugriff</string>
+    <string name="pref_title_dt2w">DT2W aktivieren</string>
+    <string name="pref_description_dt2w">Doppelt auf den Bildschirm tippen, um das Handy aufzuwecken.</string>
+    <string name="pref_title_call_ui">In Call UI aktivieren</string>
+    <string name="pref_description_call_ui">EXPERIMENTELL Aktiviere QCView für eingehende/ausgehende Anrufe.</string>
+    <string name="pref_title_alternative_call">Benutze alternative Methode um Anrufe zu beantworten/abzuweisen</string>
+    <string name="pref_description_alternative_call">Versuche diese Option, wenn du keine Anrufe benatworten/abweisen kannst. Diese Option simuliert Headset-Events um Anrufe zu beantworten</string>
+    <string name="pref_title_notification_service">Benachrichtigungsservice</string>
+    <string name="pref_has_notification_access">QCView hat Zugriff hat die Benachrichtigungen</string>
+    <string name="pref_has_no_notification_access">QCView hat keinen Zugriff auf die Benachrichtigungen</string>
+    <string name="pref_title_auto_unlock">Automatisches Entsperren</string>
+    <string name="pref_description_auto_unlock">Entsperre automatisch den Bildschirm, wenn das Cover geöffnet wird.</string>
+    <!-- Launcher Settings -->
+    <string name="pref_launcher_settings">Launcher</string>
+    <string name="pref_title_hide_launcher_labels">Verstecke Beschriftungen</string>
+    <string name="pref_description_hide_launcher_labels">Versteckt die Beschriftungen der Apps im Launcher</string>
+    <string name="title_activity_launcher_settings">Launcher Einstellungen</string>
+    <!-- Weather Settings -->
+    <string name="pref_weather_settings">Wetter Einstellungen</string>
+    <string name="pref_weather_units_title">Wähle Einheit</string>
+    <string name="pref_weather_unit_default">C</string>
+    <string name="pref_weather_unit_current">Aktuelle Einheit:</string>
+    <string name="pref_weather_refresh_interval_title">Interval aktualisieren</string>
+    <string name="pref_weather_refresh_interval_current">Aktuelles Interval:</string>
+    <!-- Knock Code settings -->
+    <string name="pref_knock_code">Knock Code</string>
+    <string name="pref_knock_code_set_new">Setze einen neuen Knock Code</string>
+    <string name="pref_knock_code_enabled">Aktiviert</string>
+    <string name="pref_knock_code_cancel">Abbrechen</string>
+    <string name="pref_knock_code_retry">Erneut versuchen</string>
+    <string name="pref_knock_code_continue">Weiter</string>
+    <string name="pref_knock_code_finish">Fertig</string>
+    <string name="title_activity_knock_settings">Knock Code Einstellungen</string>
+    <!-- About section -->
+    <string name="pref_title_libraries">Open-Source Libraries</string>
+    <string name="pref_desc_libraries">Zeige all die großartigen Open-Source Projekte, die diese App möglich gemacht haben</string>
+    <string name="pref_title_show_ads">Werbung anzeigen</string>
+    <string name="pref_description_show_ads">Vielen Dank für Deine Unterstützung!</string>
+</resources>

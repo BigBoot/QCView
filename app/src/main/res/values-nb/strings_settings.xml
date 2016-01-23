@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="title_activity_settings">Innstillinger</string>
+    <!-- Strings related to Settings -->
+    <string name="pref_header_security">Sikkerhet</string>
+    <string name="pref_header_about">Om</string>
+    <!-- General settings -->
+    <string name="pref_title_root_access">Root-tilgang</string>
+    <string name="pref_has_root_access">QCView har root-tilgang</string>
+    <string name="pref_has_no_root_access">QCView har ikke root-tilgang</string>
+    <string name="pref_title_dt2w">Aktiver DT2W</string>
+    <string name="pref_description_dt2w">Prøv å aktivere Double Tap 2 Wake i ROMs, hvor det er deaktivert som standard</string>
+    <string name="pref_title_call_ui">Aktiver UI for anrop</string>
+    <string name="pref_description_call_ui">EKSPERIMENTELL Aktiverer UI for inkommende og utgående anrop.</string>
+    <string name="pref_title_alternative_call">Bruk alternativ metode for å svare/ignorere anrop</string>
+    <string name="pref_description_alternative_call">Prøv dette hvis du ikke kan svare/ignorere et anrop. Dette emulerer hendelser for å svare/ignorere</string>
+    <string name="pref_title_notification_service">Varseltjeneste</string>
+    <string name="pref_has_notification_access">QCView er angitt som en varselmottaker</string>
+    <string name="pref_has_no_notification_access">QCView er ikke angitt som en varselmottaker</string>
+    <string name="pref_title_auto_unlock">Lås opp automatisk</string>
+    <string name="pref_description_auto_unlock">Låser automatisk opp skjermen når cover åpnes</string>
+    <!-- Launcher Settings -->
+    <string name="pref_launcher_settings">Hjemskjerm</string>
+    <string name="pref_title_hide_launcher_labels">Skjul titteletiketter på hjemskjerm</string>
+    <string name="pref_description_hide_launcher_labels">Skjuler app-titteletiketter på hjemskjermen</string>
+    <string name="title_activity_launcher_settings">Innstillinger for hjemskjerm</string>
+    <!-- Weather Settings -->
+    <string name="pref_weather_settings">Værinnstillinger</string>
+    <string name="pref_weather_units_title">Velg enhet</string>
+    <string name="pref_weather_unit_default">C</string>
+    <string name="pref_weather_unit_current">Angitt enhet:</string>
+    <string name="pref_weather_refresh_interval_title">Oppdateringsintervall</string>
+    <string name="pref_weather_refresh_interval_current">Angitt intervall:</string>
+    <!-- Knock Code settings -->
+    <string name="pref_knock_code">Knock Code</string>
+    <string name="pref_knock_code_set_new">Angi ny Knock Code</string>
+    <string name="pref_knock_code_enabled">Aktivert</string>
+    <string name="pref_knock_code_cancel">Avbryt</string>
+    <string name="pref_knock_code_retry">Prøv igjen</string>
+    <string name="pref_knock_code_continue">Fortsett</string>
+    <string name="pref_knock_code_finish">Fullfør</string>
+    <!-- About section -->
+    <string name="pref_title_libraries">Open-Source-dokumentasjoner</string>
+    <string name="pref_desc_libraries">Vis alle de fantastiske Open-Source-prosjektene, som gjorde denne appen mulig</string>
+    <string name="pref_title_show_ads">Vis reklame</string>
+</resources>

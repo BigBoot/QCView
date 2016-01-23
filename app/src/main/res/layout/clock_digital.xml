@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="@dimen/config_circle_diameter"
+        android:layout_height="@dimen/config_circle_diameter"
+        tools:ignore="PxUsage"
+        android:layout_gravity="center_horizontal">
+
+        <de.bigboot.qcircleview.cover.DigitalClock_
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textClock"
+            android:layout_gravity="center"
+            android:layout_marginTop="-105px"
+            android:textSize="228px"
+            android:textColor="#fefffefa"
+            android:background="#6b000000"
+            android:typeface="monospace" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/date"
+            android:layout_gravity="center"
+            android:layout_marginTop="175px"
+            android:textColor="#fefffefa"
+            android:background="#62030303" />
+    </FrameLayout>
+</FrameLayout>

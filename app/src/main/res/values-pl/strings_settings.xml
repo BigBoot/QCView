@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="title_activity_settings">Ustawienia</string>
+    <!-- Strings related to Settings -->
+    <string name="pref_header_security">Zabezpieczenia</string>
+    <string name="pref_header_about">O..</string>
+    <!-- General settings -->
+    <string name="pref_title_root_access">Dostęp Root</string>
+    <string name="pref_has_root_access">QCView ma dostęp do roota</string>
+    <string name="pref_has_no_root_access">QCView nie ma dostępu do roota</string>
+    <string name="pref_title_dt2w">Włącz DT2W</string>
+    <string name="pref_description_dt2w">Spróbuje włączyć budzenie podwójnym kliknięciem, na romach gdzie jest wyłączone</string>
+    <string name="pref_title_call_ui">Włącz interfejs rozmów</string>
+    <string name="pref_description_call_ui">EKSPERYMENTALNE: Włącz interfejs rozmów dla połączeń przychodzących i wychodzących</string>
+    <string name="pref_title_alternative_call">Użyj alternatywnej metody akceptowania/odrzucania połączeń</string>
+    <string name="pref_description_alternative_call">Spróbuj tego jeśli nie możesz odebrać/odrzucić połączenia. Emuluje zdarzenia, aby odebrać/odrzucić połączenie</string>
+    <string name="pref_title_notification_service">Usługa powiadomień</string>
+    <string name="pref_has_notification_access">QCView jest zarejestrowany jako odbiorca powiadomień</string>
+    <string name="pref_has_no_notification_access">QCView nie jest zarejestrowany jako odbiorca powiadomień</string>
+    <string name="pref_title_auto_unlock">Auto odblokowanie</string>
+    <string name="pref_description_auto_unlock">Automatycznie odblokuj ekran po otworzeniu etui</string>
+    <!-- Launcher Settings -->
+    <string name="pref_launcher_settings">Launcher</string>
+    <string name="pref_title_hide_launcher_labels">Ukryj etykiety w launcherze</string>
+    <string name="pref_description_hide_launcher_labels">Ukrywa podpisy aplikacji w launcherze</string>
+    <string name="title_activity_launcher_settings">Ustawienia launchera</string>
+    <!-- Weather Settings -->
+    <string name="pref_weather_settings">Ustawienia pogody</string>
+    <string name="pref_weather_units_title">Wybór jednostki</string>
+    <string name="pref_weather_unit_default">C</string>
+    <string name="pref_weather_unit_current">Obecna jednostka:</string>
+    <string name="pref_weather_refresh_interval_title">Interwał odświeżania</string>
+    <string name="pref_weather_refresh_interval_current">Obecny interwał:</string>
+    <!-- Knock Code settings -->
+    <string name="pref_knock_code">Knock Code</string>
+    <string name="pref_knock_code_set_new">Ustaw nowy Knock Code</string>
+    <string name="pref_knock_code_enabled">Włączony</string>
+    <string name="pref_knock_code_cancel">Anuluj</string>
+    <string name="pref_knock_code_retry">Spróbuj ponownie</string>
+    <string name="pref_knock_code_continue">Kontynuuj</string>
+    <string name="pref_knock_code_finish">Zakończ</string>
+    <string name="title_activity_knock_settings">Ustawienia Knock Code</string>
+    <!-- About section -->
+    <string name="pref_title_libraries">Biblioteki Open-Source</string>
+    <string name="pref_desc_libraries">Pokaż wszystkie niesamowite projekty Open-Source, które pozwoliły na stworzenie tej aplikacji</string>
+    <string name="pref_title_show_ads">Pokazuj reklamy</string>
+    <string name="pref_description_show_ads">Dzięki za wsparcie!</string>
+</resources>

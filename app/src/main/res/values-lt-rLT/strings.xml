@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QCView</string>
+    <string name="action_delete">Ištrinti</string>
+    <string name="action_settings">Nustatymai</string>
+    <string name="apply">Pritaikyti</string>
+    <string name="apply_theme">Pritaikyti temą</string>
+    <string name="author">Autorius</string>
+    <string name="description">Aprašymas:</string>
+    <string name="active_theme">Aktyvi tema</string>
+    <string name="no_watchfaces">Nėra įdiegta jokių ciferblatų\nNaudokite importavimo mygtuką naujų ciferblatų pridėjimui</string>
+    <string name="err_no_xml">Zip faile nėra clock.xml</string>
+    <string name="err_invalid_xml">clock.xml negaliojantis</string>
+    <string name="err_read_error">Klaida nuskaitant failą arba tai nėra zip failas</string>
+    <string name="err_missing_file">Pakeistas failas nėra zip faile</string>
+    <string name="err_import">Importavimo klaida</string>
+    <string name="customize_theme">Redaguoti</string>
+    <string name="firststart_text">QuickCircle View gali vaizduoti jūsų Įspėjimus, tačiau tam reikia, jog leistumėte šią funkciją.
+Root prieiga yra būtina QuickCircle View veikimui</string>
+    <string name="call_swipe_icon">Braukti per ikoną\nbet kuria kryptimi</string>
+    <string name="call_incoming">Gaunamas skambutis</string>
+    <string name="call_outgoing">Išeinantis skambutis...</string>
+    <string name="place_not_found">Atsiprašome, nėra orų duomenų</string>
+    <string name="turn_off_gps">Dabar galite išjungti GPS</string>
+    <string name="service_running">Smartcover paslauga veikia</string>
+    <string name="selinux_dialog_title">SELinux režimas</string>
+    <string name="selinux_dialog_content">QCView reikia, kad SELinux režimas būtų leidžiamas\nAr norite įjungti leidžiamą režimą</string>
+    <string name="pref_title_auto_update">Automatiniai atnaujinimai</string>
+    <string name="pref_description_auto_update">Reguliariai ieškoti atnaujinimų ir pranešti apie rastus.</string>
+    <string name="pref_title_check_for_update">Ieškoti atnaujinimų</string>
+    <string name="install_update">Įdiegti atnaujinimą?</string>
+    <!--Install update-->
+    <string name="update_yes">Įdiegti</string>
+    <!--ignore update-->
+    <string name="update_no">Ignoruoti</string>
+    <string name="update_dialog_title">Įdiegti atnaujinimą?</string>
+    <string name="update_network_error">Klaida gaunant atnaujinimo informaciją</string>
+    <string name="update_found">Galimas atnaujinimas. Palieskite, kad atsisiųstumėte.</string>
+    <string name="update_download">Atsiunčiamas atnaujinimas</string>
+    <string name="update_download_error">Klaida atsisiunčiant atnaujinimą</string>
+</resources>

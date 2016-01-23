@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="qc_size">1046px</dimen>
+    <dimen name="menu_panel_height">150px</dimen>
+    <dimen name="launcher_icon_size">175px</dimen>
+</resources>

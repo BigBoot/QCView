@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QCView</string>
+    <string name="action_delete">刪除</string>
+    <string name="action_settings">設定</string>
+    <string name="apply">應用</string>
+    <string name="apply_theme">應用主題</string>
+    <string name="author">作者:</string>
+    <string name="description">描述:</string>
+    <string name="active_theme">啟用主題</string>
+    <string name="no_watchfaces">沒有已安裝的錶面\n使用 匯入 按鈕來匯入新的錶面</string>
+    <string name="err_no_xml">壓縮檔內沒有 clock.xml</string>
+    <string name="err_invalid_xml">clock.xml 無效</string>
+    <!--Install update-->
+    <!--ignore update-->
+</resources>

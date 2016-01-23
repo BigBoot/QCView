@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QCView</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="apply">Aplicar</string>
+    <string name="apply_theme">Aplicar tema</string>
+    <string name="author">Autor:</string>
+    <string name="description">Descripción:</string>
+    <string name="active_theme">Activar tema</string>
+    <string name="no_watchfaces">Sin temas de relojes instalados\nUsar el boton de importar para instalar un tema de reloj</string>
+    <string name="err_no_xml">El Zip no contiene un clock.xml</string>
+    <string name="err_invalid_xml">el archivo clock.xml no es válido</string>
+    <string name="err_read_error">Error leyendo el archivo o archivos, no es un zip</string>
+    <string name="err_missing_file">Un archivo de reemplazo no esta en el zip</string>
+    <string name="err_import">Error al importar</string>
+    <string name="customize_theme">Personalizar</string>
+    <string name="firststart_text">QuickCircle View puede mostrar tus notificaciones dentro de la funda QuickCircle, por favor danos el acceso a las Notificaciones si quieres usar esta característica.
+Acceso Root es necesario para que funcione QuickCircle View</string>
+    <string name="call_swipe_icon">Arrastra un icono\nen cualquier dirección</string>
+    <string name="call_incoming">Llamada entrante...</string>
+    <string name="call_outgoing">Realizando llamada...</string>
+    <string name="place_not_found">Lo sentimos, no hay información del clima</string>
+    <string name="turn_off_gps">Puedes apagar el gps ahora</string>
+    <string name="service_running">Servicio de Smartcover esta ejecutándose</string>
+    <string name="selinux_dialog_title">Modo SELinux</string>
+    <!--Install update-->
+    <!--ignore update-->
+</resources>

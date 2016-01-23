@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:cb="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/black"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="@dimen/config_circle_diameter"
+        android:layout_height="@dimen/config_circle_diameter"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:background="#e6959595"
+        android:visibility="visible"
+        tools:visibility="visible">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/caller_photo"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="false"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/header"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:background="#c84fc802"
+            android:gravity="bottom"
+            android:paddingTop="64px"
+            android:paddingBottom="32px">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/incoming_call"
+                android:textSize="53px"
+                android:gravity="center"
+                android:textStyle="italic"
+                android:textColor="#deffffff"
+                android:text="@string/call_incoming"
+                android:layout_gravity="center_horizontal"
+                android:linksClickable="false" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/caller_name"
+                android:layout_gravity="center_horizontal"
+                android:textSize="88px"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:enabled="false"
+                android:textColor="#ffffffff"
+                android:textIsSelectable="false"
+                tools:text="Caller" />
+
+            <TextView
+                android:id="@+id/caller_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="53px"
+                android:gravity="center"
+                android:textStyle="italic"
+                android:textColor="#ffffffff"
+                tools:text="+49 211 1133445"
+                android:layout_gravity="center_horizontal"
+                android:textIsSelectable="true"
+                android:linksClickable="false" />
+
+
+        </LinearLayout>
+
+        <de.bigboot.qcircleview.cover.CircleButton
+            android:layout_width="256px"
+            android:layout_height="256px"
+            cb:pressedRingWidth="48px"
+            cb:color="#99CC00"
+            android:layout_below="@+id/header"
+            android:src="@drawable/ic_action_call"
+            android:id="@+id/answer_call"
+            android:layout_marginLeft="64px"
+            android:layout_marginTop="64px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Answer"
+            android:id="@+id/answer_text"
+            android:layout_below="@+id/answer_call"
+            android:layout_alignStart="@+id/answer_call"
+            android:layout_alignEnd="@+id/answer_call"
+            android:gravity="center_horizontal"
+            android:textColor="#99CC00"
+            android:textSize="70px"
+            android:textStyle="bold"
+            android:layout_marginTop="-48px" />
+
+        <de.bigboot.qcircleview.cover.CircleButton
+            android:layout_width="256px"
+            android:layout_height="256px"
+            cb:pressedRingWidth="48px"
+            cb:color="#ffff0000"
+            android:src="@drawable/ic_action_call_end"
+            android:layout_below="@+id/header"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/decline_call"
+            android:layout_marginTop="64px"
+            android:layout_marginRight="64px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Decline"
+            android:id="@+id/decline_text"
+            android:layout_below="@+id/decline_call"
+            android:layout_alignStart="@+id/decline_call"
+            android:layout_alignEnd="@+id/decline_call"
+            android:gravity="center_horizontal"
+            android:textColor="#ffff0000"
+            android:textSize="70px"
+            android:textStyle="bold"
+            android:layout_marginTop="-48px" />
+
+        <de.bigboot.qcircleview.cover.CircleButton
+            android:layout_width="256px"
+            android:layout_height="256px"
+            cb:pressedRingWidth="48px"
+            cb:color="#ffff0000"
+            android:src="@drawable/ic_action_call_end"
+            android:layout_below="@+id/header"
+            android:layout_alignParentEnd="false"
+            android:id="@+id/hang_up_call"
+            android:layout_marginTop="64px"
+            android:layout_marginRight="64px"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hang up"
+            android:id="@+id/hang_up_text"
+            android:gravity="center_horizontal"
+            android:textColor="#ffff0000"
+            android:textSize="70px"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/hang_up_call"
+            android:layout_marginTop="-48px"
+            android:visibility="invisible" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="70px"
+            android:gravity="center"
+            android:textColor="#ffffffff"
+            android:text="@string/call_swipe_icon"
+            android:layout_gravity="center_horizontal"
+            android:textIsSelectable="true"
+            android:linksClickable="false"
+            android:layout_below="@+id/answer_text"
+            android:layout_marginTop="48px"
+            android:id="@+id/text" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView16"
+            android:src="@drawable/mask"
+            tools:ignore="ContentDescription"
+            tools:visibility="gone"
+            />
+
+    </RelativeLayout>
+
+</FrameLayout>

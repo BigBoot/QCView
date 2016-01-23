@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/enabled"
+        android:title="@string/pref_knock_code_enabled"
+        android:showAsAction="always"
+        android:actionLayout="@layout/action_bar_switch"
+        />
+</menu>

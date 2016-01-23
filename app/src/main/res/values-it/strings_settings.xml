@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="title_activity_settings">Impostazioni</string>
+    <!-- Strings related to Settings -->
+    <string name="pref_header_security">Sicurezza</string>
+    <string name="pref_header_about">Informazioni</string>
+    <!-- General settings -->
+    <string name="pref_title_root_access">Accesso Root</string>
+    <string name="pref_has_root_access">QCView ha permessi Root</string>
+    <string name="pref_has_no_root_access">QCView non ha permessi Root</string>
+    <string name="pref_title_dt2w">Abilita DT2W</string>
+    <string name="pref_description_dt2w">Prova ad abilitare DT2W nelle roms dove è disabilitato di default</string>
+    <string name="pref_title_call_ui">Abilita Interfaccia di Chiamata</string>
+    <string name="pref_description_call_ui">SPERIMENTALE, Abilita Interfaccia di Chiamata per chiamate entranti o uscenti</string>
+    <string name="pref_title_alternative_call">Usa un metodo alternativo per accettare/rifiutare una chiamata</string>
+    <string name="pref_description_alternative_call">Prova questo se non riesci ad accettare/rifiutare una chiamata. Questo simula i codici di risposta e rifiuto delle chiamate</string>
+    <string name="pref_title_notification_service">Servizio di Notifica</string>
+    <string name="pref_has_notification_access">QCView è autorizzato a ricevere le notifiche</string>
+    <string name="pref_has_no_notification_access">QCView non è autorizzato a ricevere le notifiche</string>
+    <string name="pref_title_auto_unlock">Auto-Sblocco</string>
+    <string name="pref_description_auto_unlock">Sblocca automaticamente lo schermo quando la cover è aperta</string>
+    <!-- Launcher Settings -->
+    <string name="pref_launcher_settings">Launcher</string>
+    <string name="pref_title_hide_launcher_labels">Nascondi nomi nel launcher</string>
+    <string name="pref_description_hide_launcher_labels">Nasconde i nomi delle app nel launcher</string>
+    <string name="title_activity_launcher_settings">Impostazioni Launcher</string>
+    <!-- Weather Settings -->
+    <string name="pref_weather_settings">Impostazioni Meteo</string>
+    <string name="pref_weather_units_title">Seleziona Unità</string>
+    <string name="pref_weather_unit_default">C</string>
+    <string name="pref_weather_unit_current">Unità corrente:</string>
+    <string name="pref_weather_refresh_interval_title">Intervallo di aggiornamento</string>
+    <string name="pref_weather_refresh_interval_current">Intervallo corrente:</string>
+    <!-- Knock Code settings -->
+    <string name="pref_knock_code">Knock code</string>
+    <string name="pref_knock_code_set_new">Imposta un nuovo Knock Code</string>
+    <string name="pref_knock_code_enabled">Attivato</string>
+    <string name="pref_knock_code_cancel">Annulla</string>
+    <string name="pref_knock_code_retry">Riprova</string>
+    <string name="pref_knock_code_continue">Continua</string>
+    <string name="pref_knock_code_finish">Fine</string>
+    <string name="title_activity_knock_settings">Impostazioni Knock Code</string>
+    <!-- About section -->
+    <string name="pref_title_libraries">Librerie Open-Source</string>
+    <string name="pref_desc_libraries">Mostra tutti i magnifici progetti Open-Source che hanno reso quest\'applicazione possibile</string>
+    <string name="pref_title_show_ads">Mostra Pubblicità</string>
+    <string name="pref_description_show_ads">Grazie per il tuo supporto!</string>
+</resources>

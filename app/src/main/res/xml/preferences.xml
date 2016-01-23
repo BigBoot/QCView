@@ -1,0 +1,104 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="pref_notification_checkbox"
+        android:title="@string/pref_title_notification_service"
+        android:summary="@string/pref_has_no_notification_access"
+        android:defaultValue="true" />
+
+    <CheckBoxPreference
+        android:key="pref_root_checkbox"
+        android:title="@string/pref_title_root_access"
+        android:summary="@string/pref_has_no_root_access" />
+
+    <SwitchPreference
+        android:key="pref_dt2w_fix"
+        android:title="@string/pref_title_dt2w"
+        android:summary="@string/pref_description_dt2w" />
+
+    <SwitchPreference
+        android:key="pref_call_ui"
+        android:title="@string/pref_title_call_ui"
+        android:summary="@string/pref_description_call_ui" />
+
+    <SwitchPreference
+        android:key="pref_alternative_call"
+        android:title="@string/pref_title_alternative_call"
+        android:summary="@string/pref_description_alternative_call" />
+
+    <Preference android:title="@string/pref_launcher_settings" >
+    <intent android:targetClass="de.bigboot.qcircleview.config.LauncherSettingsActivity_"
+        android:targetPackage="de.bigboot.qcircleview"/>
+    </Preference>
+
+    <PreferenceScreen
+        android:title="@string/pref_weather_settings"
+        android:persistent="false">
+
+        <SwitchPreference
+            android:key="pref_weather_gps"
+            android:title="Use GPS to get Location"
+            android:disableDependentsState="true" />
+
+        <EditTextPreference
+            android:key="pref_weather_location"
+            android:title="Location"
+            android:dependency="pref_weather_gps" />
+
+        <ListPreference
+            android:key="pref_weather_units"
+            android:title="Temperature unit"
+            android:dialogTitle="@string/pref_weather_units_title"
+            android:entries="@array/pref_weather_units"
+            android:entryValues="@array/pref_weather_units_values"
+            android:defaultValue="@string/pref_weather_unit_default" />
+
+        <ListPreference
+            android:key="pref_weather_refresh_interval"
+            android:title="Refresh Interval"
+            android:dialogTitle="@string/pref_weather_refresh_interval_title"
+            android:entries="@array/pref_weather_refresh_interval"
+            android:entryValues="@array/pref_weather_refresh_interval_values"/>
+
+    </PreferenceScreen>
+
+    <PreferenceCategory
+        android:title="@string/pref_header_security" >
+
+        <Preference android:title="@string/pref_knock_code" >
+            <intent android:targetClass="de.bigboot.qcircleview.config.KnockSettingsActivity_"
+                android:targetPackage="de.bigboot.qcircleview"/>
+        </Preference>
+
+        <SwitchPreference
+            android:key="pref_auto_unlock"
+            android:title="@string/pref_title_auto_unlock"
+            android:summary="@string/pref_description_auto_unlock" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_header_about" >
+
+        <Preference android:title="@string/pref_title_libraries"
+            android:summary="@string/pref_desc_libraries">
+            <intent android:targetClass="de.bigboot.qcircleview.config.LibrariesActivity"
+                android:targetPackage="de.bigboot.qcircleview"/>
+        </Preference>
+
+        <SwitchPreference
+            android:key="pref_auto_update"
+            android:title="@string/pref_title_auto_update"
+            android:summary="@string/pref_description_auto_update" />
+
+        <Preference android:title="@string/pref_title_check_for_update"
+            android:key="pref_check_for_update">
+        </Preference>
+
+        <SwitchPreference
+            android:key="pref_show_ads"
+            android:title="@string/pref_title_show_ads"
+            android:summary="@string/pref_description_show_ads" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="library_androidslidinguppanel_desc">Android Sliding Up Panel zorgt voor een simpele manier om een verplaatsbaar omhoogglijdend paneel (zoals gebruikt in Google Music, Google Maps en Rdio) te integreren in een Android applicatie</string>
+    <string name="library_androidannotations_desc">AndroidAnnotations is een Open Source Framework dat ontwikkelen voor Android sneller maakt. Het zorgt zelf voor het lastige werk en zorgt ervoor dat je je kan focussen op de belangrijkste dingen. Door de code te versimpelen, wordt het onderhoud ook makkelijker.</string>
+    <string name="library_AndroidViewPagerIndicator_desc">Pagina indictors die compatibel zijn met de ViewPager van de Android Support Library (ondersteuningsbibliotheek) om inhoud sneller terug te kunnen vinden.</string>
+    <string name="library_FloatingActionButton_desc">Zwevende actieknop zoals in Android Google+ die reageert op scroll gebeurtenissen. Wordt zichtbaar wanneer er omhoog wordt gescrold, onzichtbaar wanner er omlaag wordt gescrold.</string>
+    <string name="library_materialicons_desc">android-material-icons brengt alle Material Design 1.0.1 (door Google, samengebracht door Sergey Kupletsky) iconen in tekst, de ActionBar en zelfs in EditTexts. De iconen zijn oneindig schaalbaar en aanpasbaar met schaduwen en alles wat je met tekst ook kunt doen.</string>
+    <string name="library_rootshell_desc">RootShell brengt een eenvoudige Root Shell naar ontwikkelaars van Android applicaties.</string>
+    <string name="library_androidcrop_desc">Een Android bibliotheek om afbeeldingen te kunnen bijsnijden, gebaseerd op de code van AOSP.</string>
+    <string name="library_roundedimageview_desc">Een snelle ImageView (en Drawable) die afgeronde hoeken ondersteund (ook ovalen en cirkels), gebaseerd op het originele voorbeeld van Romain Guy. RoundedImageView is de bovenliggende set van CircleImageView (welke niet meer is dan een onderdeel van deze bibliotheek) met heel wat extra geavanceerde mogelijkheden zoals ovalen, afgeronde rechthoeken, ScaleTypes en TileModes.</string>
+    <string name="library_androidiconify_desc">Iconify zorgt voor een simpele manier om vector iconen te gebruiken in TextView, Button enzoverder. De iconen zijn oneindig schaalbaar en aanpasbaar met schaduwen en alles wat je met tekst ook kunt doen.</string>
+    <string name="library_listviewanimation_desc">ListViewAnimations is een Open Source Android bibliotheek die zorgt dat ontwikkelaars gemakkelijk een ListView met animaties kunnen maken. Deze bibliotheek mag gebruikt worden voor elke Android app, zolang er verwezen wordt naar de bibliotheek en de licentie ervan.</string>
+    <string name="library_ion_desc">Ion is een algemene netwerkbibliotheek. Zowel JSON, strings, bestand, afbeeldingen (ImageView bijvoorbeeld) en vele andere formaten vormen geen probleem voor deze bibliotheek.</string>
+</resources>

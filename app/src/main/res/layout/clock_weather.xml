@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="@dimen/config_circle_diameter"
+        android:layout_height="@dimen/config_circle_diameter"
+        tools:ignore="PxUsage"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/weather_clear_day">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-350px">
+
+            <com.joanzapata.iconify.widget.IconTextView
+                android:id="@+id/refresh_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="{fa-refresh}"
+                android:clickable="true"
+                android:textColor="#fefffefa"
+                android:visibility="gone"
+                tools:ignore="HardcodedText"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin" />
+
+            <com.joanzapata.iconify.widget.IconTextView
+                android:id="@+id/refreshing_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="{fa-refresh spin}"
+                android:clickable="true"
+                android:textColor="#fefffefa"
+                android:visibility="gone"
+                tools:ignore="HardcodedText"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"  />
+
+
+            <com.joanzapata.iconify.widget.IconTextView
+                android:id="@+id/locationIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="{fa-map-marker}"
+                android:clickable="true"
+                android:textColor="#fefffefa"
+                android:visibility="gone"
+                tools:ignore="HardcodedText"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"  />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/city"
+                android:textColor="#fefffefa"
+                android:gravity="center_vertical" />
+        </LinearLayout>
+
+        <de.bigboot.qcircleview.cover.DigitalClock_
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textClock"
+            android:layout_gravity="center"
+            android:layout_marginTop="-105px"
+            android:textSize="228px"
+            android:textColor="#fefffefa"
+            android:typeface="monospace" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/date"
+            android:layout_gravity="center"
+            android:layout_marginTop="80px"
+            android:textColor="#fefffefa" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/description"
+            android:layout_gravity="center"
+            android:layout_marginTop="400px"
+            android:textColor="#fefffefa" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:focusableInTouchMode="false"
+            android:id="@+id/linearLayout4"
+            android:layout_below="@+id/textView16"
+            android:layout_marginTop="250px"
+            android:layout_gravity="center" >
+
+            <com.joanzapata.iconify.widget.IconTextView
+                android:id="@+id/weather_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="35dp"
+                android:textColor="#fefffefa" />
+
+            <TextView
+                android:id="@+id/current_temperature"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="30dp"
+                android:textColor="#fefffefa" />
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>

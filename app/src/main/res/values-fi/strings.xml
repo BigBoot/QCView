@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QCView</string>
+    <string name="action_delete">Poista</string>
+    <string name="action_settings">Asetukset</string>
+    <string name="apply">Käytä</string>
+    <string name="apply_theme">Ota teema käyttön</string>
+    <string name="author">Tekijä:</string>
+    <string name="description">Kuvaus:</string>
+    <string name="active_theme">Aktiivinen teema</string>
+    <string name="no_watchfaces">Ei kelloja asennettuna\nKäytä tuo -painiketta tuodaksesi uuden kellon</string>
+    <string name="err_no_xml">Zip-tiedosto ei sisällä tiedostoa clock.xml</string>
+    <string name="err_invalid_xml">clock.xml ei ole pätevä</string>
+    <!--Install update-->
+    <!--ignore update-->
+</resources>

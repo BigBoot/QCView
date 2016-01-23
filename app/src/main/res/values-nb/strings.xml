@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QCView</string>
+    <string name="action_delete">Slett</string>
+    <string name="action_settings">Innstillinger</string>
+    <string name="apply">Bruk</string>
+    <string name="apply_theme">Bruk tema</string>
+    <string name="author">Skaper:</string>
+    <string name="description">Beskrivelse:</string>
+    <string name="active_theme">Aktivt tema</string>
+    <string name="no_watchfaces">Ingen klokkeoverflater installert\nImporter nye klokkeoverflater med angitt knapp</string>
+    <string name="err_no_xml">Valgt ZIP-fil inneholder ingen \"clock.xml\"</string>
+    <string name="err_invalid_xml">\"clock.xml\" er ikke gyldig</string>
+    <string name="err_read_error">Kunne ikke lese filen</string>
+    <string name="err_missing_file">En erstattet fil finnes ikke i ZIP-filen</string>
+    <string name="err_import">Importfeil</string>
+    <string name="customize_theme">Personliggjør</string>
+    <string name="firststart_text">QuickCirlce View kan vise varslene dine gjennom åpningen i ditt QuickCircle-deksel. Vennligst gi appen tilgang til å lese varsler, for å bruke denne funksjonen.
+Root-tilgang er nødvendig for at QuickCircle View skal fungere</string>
+    <string name="call_swipe_icon">Dra et ikon\ni hvilken som helst retning</string>
+    <string name="call_incoming">Innkommende anrop...</string>
+    <!--Install update-->
+    <!--ignore update-->
+</resources>

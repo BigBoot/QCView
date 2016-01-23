@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="title_activity_settings">設定</string>
+    <!-- Strings related to Settings -->
+    <string name="pref_header_security">安全性</string>
+    <string name="pref_header_about">關於</string>
+    <!-- General settings -->
+    <string name="pref_title_root_access">Root 存取</string>
+    <string name="pref_has_root_access">QCView 擁有 root 權限</string>
+    <string name="pref_has_no_root_access">QCView 沒有 root 權限</string>
+    <string name="pref_title_dt2w">啟用 DT2W</string>
+    <string name="pref_description_dt2w">嘗試啟用雙擊喚醒, 預設停用</string>
+    <string name="pref_title_call_ui">啟用 通話中 介面</string>
+    <string name="pref_description_call_ui">!!!測試 再接通以及撥出電話時啟用 通話中介面</string>
+    <string name="pref_title_alternative_call">使用其他的方法來 接聽/掛斷 電話</string>
+    <string name="pref_description_alternative_call">如果你無法 接聽/掛斷 電話時使用此選項. 這會發出一個模擬 接聽/掛斷的 事件</string>
+    <string name="pref_title_notification_service">通知欄服務</string>
+    <string name="pref_has_notification_access">QCView 已註冊為一個通知接受者</string>
+    <string name="pref_has_no_notification_access">QCView  尚未註冊為一個通知接受者</string>
+    <string name="pref_title_auto_unlock">自動解鎖</string>
+    <string name="pref_description_auto_unlock">當保護套打開始自動解鎖螢幕</string>
+    <!-- Launcher Settings -->
+    <string name="pref_launcher_settings">桌面</string>
+    <string name="pref_title_hide_launcher_labels">在桌面中隱藏名稱</string>
+    <string name="pref_description_hide_launcher_labels">在桌面中隱藏程式名稱</string>
+    <string name="title_activity_launcher_settings">桌面設定</string>
+    <!-- Weather Settings -->
+    <string name="pref_weather_settings">天氣設定</string>
+    <string name="pref_weather_units_title">選擇單位</string>
+    <string name="pref_weather_unit_default">攝氏</string>
+    <string name="pref_weather_unit_current">目前單位:</string>
+    <string name="pref_weather_refresh_interval_title">更新間隔</string>
+    <string name="pref_weather_refresh_interval_current">目前間隔:</string>
+    <!-- Knock Code settings -->
+    <string name="pref_knock_code">Knock Code</string>
+    <string name="pref_knock_code_set_new">設定一個新的Knock Code</string>
+    <string name="pref_knock_code_enabled">啟用</string>
+    <string name="pref_knock_code_cancel">取消</string>
+    <string name="pref_knock_code_retry">重試</string>
+    <string name="pref_knock_code_continue">繼續</string>
+    <string name="pref_knock_code_finish">結束</string>
+    <string name="title_activity_knock_settings">Knock Code 設定</string>
+    <!-- About section -->
+    <string name="pref_title_libraries">開放原始碼專案</string>
+    <string name="pref_desc_libraries">顯示所有讓此專案成為可能的超棒開放原始碼專案</string>
+    <string name="pref_title_show_ads">顯示廣告</string>
+    <string name="pref_description_show_ads">感謝您的支持!</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="library_androidslidinguppanel_desc">Painel Deslizante Para Cima do Android disponibiliza uma maneira simples de adicionar um painel deslizante para cima (tornado popular pelo Google Music, Google Maps, e Rdio) à sua aplicação Android</string>
+    <string name="library_androidannotations_desc">AndroidAnnotations é uma framework Open Source que acelera o desenvolvimento do Android. Trata das tralhas e deixa-o concentrar-se no que é realmente importante. Simplificando o seu código, facilita a sua manutenção.</string>
+    <string name="library_AndroidViewPagerIndicator_desc">Ferramentas indicadoras de paginação que são compatíveis com o ViewPager da biblioteca de suporte Android para melhorar a procura de conteúdos.</string>
+    <string name="library_FloatingActionButton_desc">Botão flutuante ao estilo de Google+ que reage a eventos da lista. Torna-se visível quando desliza a lista para cima e invisível quando desliza para baixo.</string>
+    <string name="library_materialicons_desc">android-material-icons permite-lhe incluir quaisquer ícones Material Design 1.0.1 da Google criados por Sergey Kupletsky nos seus textos, ActionBar e até nos EditTexts. Os ícones são infinitamente escaláveis e personalizáveis com sombras e tudo o que for possível fazer nos textos.</string>
+    <string name="library_rootshell_desc">RootShell disponibiliza aos programadores uma Root Shell de fácil utilização para as suas aplicações Android.</string>
+    <string name="library_androidcrop_desc">Um projecto de biblioteca Android que disponibiliza uma simples Actividade de recorte de imagem, baseada no código de AOSP.</string>
+    <string name="library_roundedimageview_desc">Um rápido visualizador de imagem (e editor) que suporta cantos arredondados (e ovais ou círculos) baseado no exemplo original de Romain Guy. RoundedImageView é um superconjunto completo de CircleImageView (o qual é na realidade somente um subconjunto baseado nesta biblioteca) com muito mais funcionalidades avançadas tais como suporte para ovais, rectângulos arredondados, ScaleTypes e TileModes.</string>
+    <string name="library_androidiconify_desc">Iconify permite-lhe incluir facilmente ícones vector no seu TextView, Button, etc... Os ícones são infinitamente escaláveis, e personalizáveis com sombras e tudo o que for possível fazer nos textos.</string>
+    <string name="library_listviewanimation_desc">ListViewAnimations é uma biblioteca Android Open Source que permite aos programadores criar facilmente ListViews com animações. Sinta-se à vontade para a usar desde que cite este projecto e inclua a licença na sua aplicação.</string>
+    <string name="library_ion_desc">Ion é uma biblioteca de rede genérica. Seja JSON, Strings, Ficheiros ou Imagens (em ImageViews), etc; Ion suporta.</string>
+</resources>

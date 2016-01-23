@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="title_activity_settings">Ajustes</string>
+    <!-- Strings related to Settings -->
+    <string name="pref_header_security">Segurança</string>
+    <string name="pref_header_about">Sobre</string>
+    <!-- General settings -->
+    <string name="pref_title_root_access">Acesso ao Root</string>
+    <string name="pref_has_root_access">QCView obteve acesso ao root</string>
+    <string name="pref_has_no_root_access">QCView não obteve acesso ao root</string>
+    <string name="pref_title_dt2w">Ativar DT2W</string>
+    <string name="pref_description_dt2w">Tente ativar Double Tap 2 Wake nas Roms, onde está desativado por defeito</string>
+    <string name="pref_title_call_ui">Ativa In Call UI</string>
+    <string name="pref_description_call_ui">EXPERIMENTAL Ativa In Call UI para chamadas de entrada e de saída.</string>
+    <string name="pref_title_alternative_call">Utiliza método alternativo para ceitar/rejeitar uma chamada</string>
+    <string name="pref_description_alternative_call">Tente isto se não conseguir receber/rejeitar uma chamada. Isto simula eventos para aceitar/rejeitar uma chamada</string>
+    <string name="pref_title_notification_service">Serviço de notificações</string>
+    <string name="pref_has_notification_access">QCView é registado como recetor de notificações</string>
+    <string name="pref_has_no_notification_access">QCView não é registado como recetor de notificações</string>
+    <string name="pref_title_auto_unlock">Desbloqueio automático</string>
+    <string name="pref_description_auto_unlock">Desbloqueia o écran automaticamente quando a capa é aberta</string>
+    <!-- Launcher Settings -->
+    <string name="pref_launcher_settings">Launcher</string>
+    <string name="pref_title_hide_launcher_labels">Esconde etiquetas no launcher</string>
+    <string name="pref_description_hide_launcher_labels">Esconde etiquetas de aplicações no launcher</string>
+    <string name="title_activity_launcher_settings">Definições do launcher</string>
+    <!-- Weather Settings -->
+    <string name="pref_weather_settings">Definições de meteorologia</string>
+    <string name="pref_weather_units_title">Escolher unidade</string>
+    <string name="pref_weather_unit_default">C</string>
+    <string name="pref_weather_unit_current">Unidade atual:</string>
+    <!-- Knock Code settings -->
+    <string name="pref_knock_code">Código Knock</string>
+    <string name="pref_knock_code_set_new">Define um novo Knock Code</string>
+    <string name="pref_knock_code_enabled">Ativado</string>
+    <string name="pref_knock_code_cancel">Cancelar</string>
+    <string name="pref_knock_code_retry">Tentar novamente</string>
+    <string name="pref_knock_code_continue">Continuar</string>
+    <string name="pref_knock_code_finish">Terminar</string>
+    <string name="title_activity_knock_settings">Definições de Knock Code</string>
+    <!-- About section -->
+    <string name="pref_title_libraries">Bibliotecas Open-Source</string>
+    <string name="pref_desc_libraries">Mostra todas os espetaculares Projetos Open-Source que tornaram possível esta aplicação</string>
+    <string name="pref_title_show_ads">Mostra anúncios</string>
+    <string name="pref_description_show_ads">Obrigado pela sua colaboração!</string>
+</resources>

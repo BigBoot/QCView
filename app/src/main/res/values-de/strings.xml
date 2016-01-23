@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QCView</string>
+    <string name="action_delete">Löschen</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="apply">Anwenden</string>
+    <string name="apply_theme">Design anwenden</string>
+    <string name="author">Autor:</string>
+    <string name="description">Beschreibung:</string>
+    <string name="active_theme">Aktives Design</string>
+    <string name="no_watchfaces">Keine Designs installiert\nBenutze den importieren Knopf, um neue Designs zu installieren</string>
+    <string name="err_no_xml">Die zip-Datei beinhaltet keine \"clock.xml\" Datei</string>
+    <string name="err_invalid_xml">Die \"clock.xml\" Datei ist ungültig</string>
+    <string name="err_read_error">Fehler beim Zugriff auf die Datei, oder es handelt sich nicht um eine zip-Datei.</string>
+    <string name="err_missing_file">Eine benötigte Datei fehlt im Archiv</string>
+    <string name="err_import">Fehler beim Importieren</string>
+    <string name="customize_theme">Anpassen</string>
+    <string name="firststart_text">QCView kann deine Benachrichtigungen im QuickCircle anzeigen, fallls du dieses Feature benutzen willst, benötigt QCView Zugriff auf deine Benachrichtigungen.
+Root Zugriff ist zwingend notwendig, damit QCView funktioniert</string>
+    <string name="call_swipe_icon">Wische ein Icon\nin eine beliebige Richtung</string>
+    <string name="call_incoming">Eingehender Anruf...</string>
+    <string name="call_outgoing">Ausgehender Anruf...</string>
+    <string name="place_not_found">Keine Wetterdaten gefunden.</string>
+    <string name="turn_off_gps">Du kannst GPS nun abschalten</string>
+    <string name="service_running">Smart-Cover Service läuft</string>
+    <string name="selinux_dialog_title">SELinux Mode</string>
+    <string name="selinux_dialog_content">QCView benötigt den Permissive Mode von SELinux.\nMöchtest Du den Permissive Mode einschalten?</string>
+    <string name="pref_title_auto_update">Automatische Updates</string>
+    <string name="pref_description_auto_update">Regelmäßig nach Updates suchen und über gefundene Updates benachrichtigen.</string>
+    <string name="pref_title_check_for_update">Nach Updates suchen</string>
+    <string name="install_update">Update installieren?</string>
+    <!--Install update-->
+    <string name="update_yes">Installieren</string>
+    <!--ignore update-->
+    <string name="update_no">Ignorieren</string>
+    <string name="update_dialog_title">Update installieren?</string>
+    <string name="update_network_error">Fehler beim Abrufen der Updateinformationen</string>
+    <string name="update_found">Update verfügbar. Klicken zum Herunterladen.</string>
+    <string name="update_download">Update wird heruntergeladen</string>
+    <string name="update_download_error">Fehler beim Download des Updates</string>
+</resources>

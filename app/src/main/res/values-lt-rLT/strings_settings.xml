@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="title_activity_settings">Nustatymai</string>
+    <!-- Strings related to Settings -->
+    <string name="pref_header_security">Sauga</string>
+    <string name="pref_header_about">Apie</string>
+    <!-- General settings -->
+    <string name="pref_title_root_access">Root prieiga</string>
+    <string name="pref_has_root_access">QCView turi root prieigą</string>
+    <string name="pref_has_no_root_access">QCView neturi root prieigos</string>
+    <string name="pref_title_dt2w">Įjungti DT2W</string>
+    <string name="pref_description_dt2w">Pabandyti įjungti Dvigubą palietimą pažadinimui, kur jis išjungtas pagal nutylėjimą</string>
+    <string name="pref_title_call_ui">Įjungti UI skambučio metu</string>
+    <string name="pref_description_call_ui">EKSPERIMENTINĖ F-JA: Įjungia UI skambučio metu gaunamiems ir išeinantiems skambučiams</string>
+    <string name="pref_title_alternative_call">Naudoti alternatyvų metodą skambučių priėmimui/atmetimui</string>
+    <string name="pref_description_alternative_call">Išbandyti šitą jei nepavyksta priimti/atmesti skambučio. Tai imituoja skambučio priėmimo/atmetimo įvykius</string>
+    <string name="pref_title_notification_service">Įspėjimų paslauga</string>
+    <string name="pref_has_notification_access">QCView užregistruotas kaip įspėjimų gaviklis</string>
+    <string name="pref_has_no_notification_access">QCView neužregistruotas kaip įspėjimų gaviklis</string>
+    <string name="pref_title_auto_unlock">Automatinis atrakinimas</string>
+    <string name="pref_description_auto_unlock">Automatiškai atrakinti ekraną atvertus dėkliuką</string>
+    <!-- Launcher Settings -->
+    <string name="pref_launcher_settings">Launcher</string>
+    <string name="pref_title_hide_launcher_labels">Slėpti pavadinimus</string>
+    <string name="pref_description_hide_launcher_labels">Paslepia programų pavadinimus</string>
+    <string name="title_activity_launcher_settings">Launcher nustatymai</string>
+    <!-- Weather Settings -->
+    <string name="pref_weather_settings">Orų Nustatymai</string>
+    <string name="pref_weather_units_title">Pasirinkti vienetus</string>
+    <string name="pref_weather_unit_default">C</string>
+    <string name="pref_weather_unit_current">Dabartiniai vienetai</string>
+    <string name="pref_weather_refresh_interval_title">Atnaujinti kas:</string>
+    <string name="pref_weather_refresh_interval_current">Dabartinis intervalas</string>
+    <!-- Knock Code settings -->
+    <string name="pref_knock_code">Knock Code</string>
+    <string name="pref_knock_code_set_new">Nustatyti naują Knock Code</string>
+    <string name="pref_knock_code_enabled">Įjungtas</string>
+    <string name="pref_knock_code_cancel">Atšaukti</string>
+    <string name="pref_knock_code_retry">Bandyti dar kartą</string>
+    <string name="pref_knock_code_continue">Tęsti</string>
+    <string name="pref_knock_code_finish">Baigti</string>
+    <string name="title_activity_knock_settings">Knock Code Nustatymai</string>
+    <!-- About section -->
+    <string name="pref_title_libraries">Atvirojo kodo Bibliotekos</string>
+    <string name="pref_desc_libraries">Rodyti visus Atviro kodo projektus, dėl kurių ši programa tapo galima</string>
+    <string name="pref_title_show_ads">Rodyti reklamas</string>
+    <string name="pref_description_show_ads">Ačiū už palaikymą!</string>
+</resources>

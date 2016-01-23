@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="library_androidslidinguppanel_desc">Android Sliding Up Panel предоставляет простой способ добавить вытягиваемую панель (используется в Google Music, Google Maps и Rdio) в Ваше приложение Андроид.</string>
+    <string name="library_androidannotations_desc">AndroidAnnotations является фреймворком с открытым исходным кодом, ускоряющим разработку Андроид. Он дает Вам сконцентрироваться на том, что наиболее важно. Упрощая код, он облегчает его обработку.</string>
+    <string name="library_AndroidViewPagerIndicator_desc">Виджеты индикатора страниц, совместимые с ViewPager из Android Support Library для улучшения обнаружимости содержимого.</string>
+    <string name="library_FloatingActionButton_desc">Плавающая активная кнопка Андроид в стиле Google+, реагирующая на события прокрутки списка. Становится видимой при прокрутке вверх и невидимой при прокрутке вниз.</string>
+    <string name="library_materialicons_desc">Android-material-icons позволяют включать любые значки Material Design 1.0.1 от Google, собранные Sergey Kupletsky в Ваши тексты, строку меню, и даже в EditTexts. Значки гибко масштабируются, настраиваются с помощью теней и всего того, что можно сделать с текстами.</string>
+    <string name="library_rootshell_desc">RootShell обеспечивает разработчиков, имеющих дело с рутом, лёгким способом использовать оболочку рут в их приложениях Андроид.</string>
+    <string name="library_androidcrop_desc">Проект библиотеки Андроид, предоставляющий простую активность обрезки изображений на основе кода AOSP.</string>
+    <string name="library_roundedimageview_desc">Быстрый ImageView (и Drawable), поддерживающий закругленные углы (а также овалы и круги) на основе оригинального примера Romain Guy. RoundedImageView является полным набором CircleImageView (на текущий момент - только поднабора на основе этой библиотеки) со многими расширенными функциями, такими как поддержка овалов, закруглённых прямоугольников, ScaleTypes и TileModes.</string>
+    <string name="library_androidiconify_desc">Iconify позволяет Вам легко включить векторные значки в Ваш TextView, Button, и др… Значки гибко масштабируются, настраиваются с помощью теней и всего того, что можно сделать с текстами.</string>
+    <string name="library_listviewanimation_desc">ListViewAnimations являются библиотекой с открытым исходным кодом, позволяющей разработчикам легко создавать ListViews с анимациями. Используйте все что хотите из этой библиотеки в своем приложении Андроид, при условии, что Вы даете указание на этот проект и включаете лицензию в Ваше приложение.</string>
+    <string name="library_ion_desc">Ion является сетевой библиотекой общего назначения. Будь это JSON, Strings, файлы, изображения (в ImageViews), и т.д., Ion может с этим работать.</string>
+</resources>

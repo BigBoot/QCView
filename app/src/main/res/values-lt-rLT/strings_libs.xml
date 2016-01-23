@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="library_androidslidinguppanel_desc">Android ištraukiamas skydelis leidžia paprastai pridėti tempiamą skydelį (kaip pvz. Google Music, Google Maps ir Rdio) į jūsų programą</string>
+    <string name="library_androidannotations_desc">AndroidAnnotations yra Atviro kodo aplinka, pagreitinantis Android kūrimą. Ji pasirūpina \"skylių užglaistymu\" ir leidžia jums koncentruotis ties tuo, kas tikrai svarbu. Supaprastindama kodą, ji palengvina jo priežiūrą.</string>
+    <string name="library_AndroidViewPagerIndicator_desc">Puslapių indikatorių valdikliai suderinami su Android Support bibliotekos ViewPager turinio suradimo pagerinimui.</string>
+    <string name="library_FloatingActionButton_desc">Android Material Design stiliaus \"plaukiojantis\" mygtukas reaguoja į sąrašo būseną. Vaizduojamas slenkant į viršų ir nematomas kai slenkama į apačią.</string>
+    <string name="library_materialicons_desc">android material design ikonėlės leidžia įtraukti bet kurią iš Material Design 1.0.1 ikonėlių, supakuotų Sergey Krupletsky savo tekstams, ActionBar ir net savo EditText. Ikonėlės yra keičiamo mastelio ir redaguojamos šešėliais bei viskuo, ką galima nuveikti su tekstu.</string>
+    <string name="library_rootshell_desc">RootShell leidžia rooted kūrėjams lengvai naudoti Root Shell savo Android programoms.</string>
+    <string name="library_androidcrop_desc">Android bibliotekos projektas skirtas paprastam paveiksliukių apkirpimui, paremta AOSP kodu.</string>
+    <string name="library_roundedimageview_desc">Greitas ImageView (ir Drawable), palaikantis užapvalintus (apvalius bei ovalius) kampus, paremtus originaliu Romain Gui pavyzdžiu. RoundedImageView yra pilnas CircleImageView rinkinys (kuris pats yra tik šios bibliotekos subrinkinys) su daug daugiau funkcijų, tokių kaip ovalai, užapvalinti stačiakampiai, ScaleTypes ir TileModes.</string>
+    <string name="library_androidiconify_desc">Iconify leidžia jums lengvai pridėti vektorines ikonėles jūsų TextView, Mygtukuose ir t.t.... Ikonos yra keičiamo mastelio bei redaguojamos šešėliais bei visuo kitu, ką galima nuveikti su tekstais.</string>
+    <string name="library_listviewanimation_desc">ListViewAnimations yra atviro kodo Android biblioteka, leidžianti kūrėjams lengvai sukurti Sąrašus (ListViews) ir animacijas. Naudokite ją iki valiai savo Android programėlėse, tik nurodykite šio projekto pavadinimą ir jo licenciją.</string>
+    <string name="library_ion_desc">Ion yra bendroji tinklo sąsajų biblioteka. Nesvarbu, ar tai JSON, Eilutės, Failai, Paveiksliukai (į ImageViews)....; Ion tai sutvarko.</string>
+</resources>

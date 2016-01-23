@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QCView</string>
+    <string name="action_delete">Wissen</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="apply">Toepassen</string>
+    <string name="apply_theme">Thema toepassen</string>
+    <string name="author">Auteur:</string>
+    <string name="description">Beschrijving:</string>
+    <string name="active_theme">Huidig Thema</string>
+    <string name="no_watchfaces">Geen Watchfaces geïnstalleerd\nGebruik de importeer knop om nieuwe watchfaces te importeren</string>
+    <string name="err_no_xml">ZIP bestand heeft geen clock.xml</string>
+    <string name="err_invalid_xml">clock.xml is ongeldig</string>
+    <string name="err_read_error">Fout bij het lezen van het bestand of het bestand is geen zip-bestand</string>
+    <string name="err_missing_file">Een vervangen bestand ontbreekt in het zip-bestand</string>
+    <string name="err_import">Fout bij importeren</string>
+    <string name="customize_theme">Aanpassen</string>
+    <string name="firststart_text">QuickCircle View kan meldingen weergeven in de QuickCircle Case, hiervoor heeft de app toegang nodig tot meldingen.
+Root toegang is noodzakelijk voor de werking van QuickCircleView</string>
+    <string name="call_swipe_icon">Veeg een icoon\nin eender welke richting</string>
+    <string name="call_incoming">Inkomend Gesprek...</string>
+    <string name="call_outgoing">Uitgaand Gesprek...</string>
+    <string name="place_not_found">Er werd geen weer data gevonden.</string>
+    <string name="turn_off_gps">GPS kan nu worden uitgeschakeld</string>
+    <string name="service_running">Smartcover service is actief</string>
+    <string name="selinux_dialog_title">SELinux modus</string>
+    <string name="selinux_dialog_content">QCView vereist dat de SELinux modus tolerant is.\nWilt u tolerante modus activeren?</string>
+    <string name="pref_title_auto_update">Automatische Updates</string>
+    <string name="pref_description_auto_update">Controleert regelmatig op updates en waarschuwt als er gevonden werden</string>
+    <string name="pref_title_check_for_update">Controleer op updates</string>
+    <string name="install_update">Update Installeren?</string>
+    <!--Install update-->
+    <string name="update_yes">Installeren</string>
+    <!--ignore update-->
+    <string name="update_no">Negeren</string>
+    <string name="update_dialog_title">Update Installeren?</string>
+    <string name="update_network_error">Fout bij het verzamelen van update informatie</string>
+    <string name="update_found">Update beschikbaar, tik om te downloaden.</string>
+    <string name="update_download">Update wordt gedownload</string>
+    <string name="update_download_error">Fout bij downloaden update</string>
+</resources>
