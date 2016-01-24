@@ -14,8 +14,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.Toolbar;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
 import com.soundcloud.android.crop.Crop;
 import com.viewpagerindicator.CirclePageIndicator;
 
@@ -76,9 +74,6 @@ public class QuickcirclemodSettings extends Activity {
     @ViewById(R.id.applied)
     TextView applied;
 
-    @ViewById(R.id.adView)
-    AdView adView;
-
     @ViewById(R.id.toolbar)
     Toolbar toolbar;
 
@@ -128,13 +123,6 @@ public class QuickcirclemodSettings extends Activity {
         });
         loadClockInfo(0);
         SmartcoverService_.intent(this).start();
-
-        if (prefs.getBoolean(Preferences.BooleanSettings.ShowAds)) {
-            AdRequest adRequest = new AdRequest.Builder().build();
-            adView.loadAd(adRequest);
-        } else {
-            adView.setVisibility(View.GONE);
-        }
     }
 
     private void loadClockInfo (int i) {

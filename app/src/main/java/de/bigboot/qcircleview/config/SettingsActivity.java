@@ -69,7 +69,6 @@ public class SettingsActivity extends Activity {
             loadSwitchPreference(Preferences.BooleanSettings.CallUi);
             loadSwitchPreference(Preferences.BooleanSettings.AlternativeCall);
             loadSwitchPreference(Preferences.BooleanSettings.WeatherUsingGPS);
-            loadSwitchPreference(Preferences.BooleanSettings.ShowAds);
             loadSwitchPreference(Preferences.BooleanSettings.AutoUpdate);
 
             rootAccessPrefs.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {

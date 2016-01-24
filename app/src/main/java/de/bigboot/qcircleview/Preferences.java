@@ -43,8 +43,7 @@ public class Preferences {
         HideLauncherLabels("hide_launcher_labels", false),
         EnableLauncher("enable_launcher", true),
         WeatherUsingGPS("weather_gps", true),
-        AutoUpdate("auto_update", true),
-        ShowAds("show_ads", true);
+        AutoUpdate("auto_update", true);
 
         public final String key;
         public final boolean defaultValue;

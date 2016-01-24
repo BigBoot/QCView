@@ -185,17 +185,6 @@
                     android:layout_alignParentEnd="true" />
 
             </RelativeLayout>
-
-            <com.google.android.gms.ads.AdView
-                android:id="@+id/adView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                ads:adSize="BANNER"
-                ads:adUnitId="@string/ad_unit_id"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentRight="true">
-            </com.google.android.gms.ads.AdView>
         </LinearLayout>
 
 
