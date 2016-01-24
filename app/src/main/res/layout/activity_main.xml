@@ -9,9 +9,10 @@
     android:gravity="center_horizontal">
 
     <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:ignore="PxUsage,UselessParent">
+        android:layout_width="@dimen/config_circle_diameter"
+        android:layout_height="@dimen/config_circle_diameter"
+        tools:ignore="PxUsage,UselessParent"
+        android:layout_marginTop="@dimen/config_circle_window_y_pos">
 
         <FrameLayout
             android:layout_width="@dimen/config_circle_diameter"
@@ -48,10 +49,9 @@
 
         <de.bigboot.qcircleview.cover.CircleAnimationView_
             android:id="@+id/circle_animation"
-            android:layout_width="1100px"
-            android:layout_height="1100px"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="-32px" />
+            android:layout_width="@dimen/config_circle_diameter"
+            android:layout_height="@dimen/config_circle_diameter"
+            android:layout_gravity="center_horizontal" />
     </FrameLayout>
 
 </LinearLayout>

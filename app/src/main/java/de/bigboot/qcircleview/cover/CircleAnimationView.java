@@ -57,6 +57,8 @@ public class CircleAnimationView extends View {
         postInvalidate();
     }
 
+
+
     @Override
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
         super.onSizeChanged(w, h, oldw, oldh);
@@ -65,7 +67,9 @@ public class CircleAnimationView extends View {
     }
 
     private void calucateAnimation(int w, int h) {
-        animationClip.set(0, (int) (h*progress-GLOW_SIZE), w, (int) (h*progress+GLOW_SIZE));
+        h*=1.05f;
+        w*=1.05f;
+        animationClip.set(0, (int) (h *1.05f*progress-GLOW_SIZE), w, (int) (h*progress+GLOW_SIZE));
         paint.setShader(new LinearGradient(0, progress*h, 0, progress*h+GLOW_SIZE, Color.WHITE, Color.TRANSPARENT, Shader.TileMode.MIRROR));
     }
 
@@ -97,8 +101,8 @@ public class CircleAnimationView extends View {
         if (progress == 0 || progress == 1)
             return;
 
-        int widht = getWidth();
-        int height = getHeight();
+        int widht = (int) (getWidth() * 1.05f);
+        int height = (int) (getHeight() * 1.05f);
         float radius = Math.min(widht, height)/2 - CIRCLE_WIDTH /2;
 
         canvas.clipRect(animationClip);
